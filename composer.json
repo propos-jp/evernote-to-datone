@@ -1,0 +1,14 @@
+{
+    "name": "h.obata/evernote-to-dayone",
+    "require": {
+        "phpunit/phpunit": "^5.7",
+        "pixel418/markdownify": "^2.2"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "propos-jp",
+            "email": "obata.hiroshi@propos.jp"
+        }
+    ]
+}

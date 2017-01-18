@@ -1,0 +1,2432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export2.dtd">
+<en-export export-date="20170117T015601Z" application="Evernote/Windows" version="6.x">
+<note><title>maru20161014</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note>
+<div>
+<div><br/></div>
+<div><br/></div>
+</div>
+<ul>
+<li>付属のDVDはパソコンクライアントとのものばかり</li>
+<li>サーバーで何が動いているかの資料はない</li>
+<li>体制図とか2009年から更新されていない</li>
+<li>現状とは違う可能性有り</li>
+<li>死活監視とかしているはずだが現状どうなっているのか？
+<ul>
+<li>外部からパスワードでログインできそうで嫌だ</li>
+</ul>
+</li>
+</ul>
+<div>
+<div><br/></div>
+</div>
+</en-note>
+]]></content><created>20161014T004938Z</created><updated>20161014T075320Z</updated><note-attributes><author>obata_hiroshi</author></note-attributes></note><note><title>Mac環境整備</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note>
+<div>
+<div>macBook2012を使う</div>
+<div><br/></div>
+</div>
+<ul>
+<li>遅い！うちの2008MacBookより遅いとは何事かというか原因は明らかでSSDである</li>
+<li>obata.andex2@gmail.comというメールアドレスを確保　
+<ul>
+<li>当初は本アカウント共有のつもりだったが別アカウントを確保してDropBoxやEvernoteは共有する</li>
+</ul>
+</li>
+<li>Evernoteを入れる</li>
+<li>dropboxも入れる</li>
+<li>VagrantとVirtualboxを入れたが明らかに面そうだので使わないことにした</li>
+<li>aaaa</li>
+<li><br/></li>
+</ul>
+</en-note>
+]]></content><created>20161014T012452Z</created><updated>20161014T015049Z</updated><note-attributes><author>obata_hiroshi</author></note-attributes></note><note><title>調査項目　作業環境</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note><div>作業場への入退出</div><div><br/></div><div><en-todo checked="false"/>時間</div><div><en-todo checked="false"/>服装</div><div><en-todo checked="false"/>作業場所</div><div><br/></div><div><br/></div><div>メモ</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><hr/></div><div>作業環境</div><div><br/></div><div>持ち込み</div><div><br/></div><div><en-todo checked="false"/>PC持ち込み</div><div><en-todo checked="false"/>スマホ持ち込み</div><div><en-todo checked="false"/>HDDやUSBの持ち込み</div><div><en-todo checked="false"/>その他制限</div><div><br/></div><div><br/></div><div>メモ</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><hr/></div><div><br/></div><div>持ち出し</div><div><br/></div><div><en-todo checked="false"/>写真</div><div><en-todo checked="false"/>データ</div><div><en-todo checked="false"/>紙の資料</div><div><en-todo checked="false"/>ノート</div><div><br/></div><div>メモ</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><hr/></div><div><br/></div><div>接続</div><div><br/></div><div>持ち込みPC</div><div><br/></div><div><en-todo checked="false"/>持ち込みPCのネットワーク接続</div><div><en-todo checked="false"/>持ち込みPCのインターネット接続</div><div><en-todo checked="false"/>持ち込みPCのサーバーへの接続</div><div><br/></div><div>メモ</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><hr/></div><div><br/></div><div>サーバー(現行)</div><div><br/></div><div><en-todo checked="false"/>外部からのSSH接続</div><div><en-todo checked="false"/>外部サイトへのアクセス（RPMなどダウンロード)</div><div><en-todo checked="false"/>USB機器の接続</div><div><br/></div><div>メモ</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><hr/></div><div><br/></div><div>サーバー(新規)</div><div><br/></div><div><en-todo checked="false"/>外部からのSSH接続</div><div><en-todo checked="false"/>外部サイトへのアクセス（RPMなどダウンロード)</div><div><en-todo checked="false"/>USB機器の接続</div><div><br/></div><div>メモ</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><hr/></div><div>その他</div><div><br/></div><div><br/></div><div><br/></div></en-note>]]></content><created>20161014T041456Z</created><updated>20161018T001715Z</updated><note-attributes><author>obata_hiroshi</author></note-attributes></note><note><title>調査項目　サーバー現行</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note><div>ハード</div><div><br/></div><div><br/></div><ul><li>CPU &nbsp;&nbsp;
+<ul><li>cat /proc/cpuinfo</li></ul></li><li>メモリ&nbsp;
+<ul><li>cat /proc/meminfo</li></ul></li></ul><div><br/></div><div>HDD</div><ul><li>フォーマットとパーテション　
+<ul><li>df -k</li><li>cat /etc/fstab</li><li>cat /etc/mdstat</li></ul></li></ul><div><br/></div><div>OS</div><ul><li>CentOSのバージョンを確認するコマンド
+<ul><li>arch</li><li>cat /etc/redhat-release</li><li>uname -a</li></ul></li><li>OSブート時の引数
+<ul><li>cat /proc/cmdline</li></ul></li><li>ユーザ/グループ
+<ul><li>cat /etc/passwd</li><li>cat /etc/group</li></ul></li><li>登録されているサービス
+<ul><li>- # ps -ef</li><li>- $ netstat -an</li><li>- # lsof -i</li></ul></li></ul><div><br/></div><div>1.の ps コマンドに -ef オプションを付けることでシステムで動いているプロセスが表示されます。</div><div>2.の netstat コマンドに -an オプションを付けることで、Listenポートの確認が出来ます。</div><div>3.の lsof でも iオプションを付けることで、同じような情報が取れますが、コマンド名やPIDが分かる分、分かりやすいかもしれません。</div><div><br/></div><ul><li>ネットワーク
+<ul><li><span style="color: rgb(61, 61, 61); font-family: Helvetica, Arial, &quot;ヒラギノ角ゴ Pro W3&quot;, &quot;Hiragino Kaku Gothic Pro&quot;, メイリオ, Meiryo, &quot;ＭＳ Ｐゴシック&quot;, &quot;MS PGothic&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">ifconfig -a</span></li><li><span style="font-size: 14px;"><span style="font-family: Helvetica, Arial, &apos;ヒラギノ角ゴ Pro W3&apos;, &apos;Hiragino Kaku Gothic Pro&apos;, メイリオ, Meiryo, &apos;ＭＳ Ｐゴシック&apos;, &apos;MS PGothic&apos;, sans-serif;"><span style="background-color: rgb(255, 255, 255);"><span style="color: rgb(61, 61, 61);">netstat -nr</span></span></span></span></li></ul></li><li>パッケージ
+<ul><li>rpm -qa</li></ul></li><li><span style="color: rgb(61, 61, 61); font-family: Helvetica, Arial, &quot;ヒラギノ角ゴ Pro W3&quot;, &quot;Hiragino Kaku Gothic Pro&quot;, メイリオ, Meiryo, &quot;ＭＳ Ｐゴシック&quot;, &quot;MS PGothic&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">crontab [ -u user ] -l</span></li></ul><div><br/></div><div><br/></div><div><br/></div><div><br/></div></en-note>]]></content><created>20161014T043420Z</created><updated>20161018T022854Z</updated><note-attributes><author>obata_hiroshi</author><source-url>http://think-t.hatenablog.com/entry/20090218</source-url></note-attributes></note><note><title>サーバを調査する時にやること(Linux編) - think-t の晴耕雨読</title><content><![CDATA[<?xml version="1.0" encoding="utf-8"?><!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note><div style="-evernote-webclip:true"><br/><div style="font-size: 16px"><div style="font-family:Helvetica, Arial, メイリオ, Meiryo, &quot;MS PGothic&quot;, sans-serif;"><div style="font-family:Helvetica, Arial, &quot;ヒラギノ角ゴ Pro W3&quot;, &quot;Hiragino Kaku Gothic Pro&quot;, メイリオ, Meiryo, &quot;ＭＳ Ｐゴシック&quot;, &quot;MS PGothic&quot;, sans-serif;color:rgb(255, 255, 255);transition:all 1s ease;background-color:rgb(61, 61, 61);">
+    
+
+
+
+    
+    <div>
+     
+    </div>
+
+    
+
+
+
+
+
+<div style="position:absolute;z-index:3000;">
+  
+
+  
+
+  
+
+  
+</div>
+
+
+
+
+
+    <div style="position:relative;z-index:99;height:37px;width:100%;border-top:4px solid rgb(186, 0, 0);">
+  <div style="width:100%;height:37px;border:none;position:relative;z-index:99;font-family:&quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;ヒラギノ角ゴ Pro W3&quot;, &quot;Hiragino Kaku Gothic Pro&quot;, メイリオ, Meiryo, &quot;ＭＳ Ｐゴシック&quot;, &quot;MS PGothic&quot;, sans-serif;"/>
+</div>
+
+
+    
+    
+
+    <div>
+      <div>
+        <div style="display:block;margin:10px auto 0px;width:900px;text-align:center;">
+  <div style="text-align:left;">
+    <div>
+      <h1 style="padding:30px 0px 35px;display:inline-block;margin:0px;"><a href="http://think-t.hatenablog.com/" style="text-decoration:none;transition:opacity 0.3s ease, border, color, background;color:rgb(255, 255, 255);font-size:30px;font-weight:700;">think-t の晴耕雨読</a></h1>
+      
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+
+
+
+<div style="width:900px;color:rgb(61, 61, 61);margin:0px auto;background:rgb(255, 255, 255);">
+  <div>
+    <div style="font-size:13px;float:left;width:100%;margin-right:-201px;min-height:100px;">
+      <div style="margin-right:200px;">
+        <div style="border-right:1px solid rgb(221, 221, 221);">
+          
+            
+            
+            
+            
+              
+                <div style="display:block;padding-bottom:50px;">
+  <div>
+    <div style="display:block;position:relative;margin:0px 0px 0.5em;padding:20px 95px 0.2em 20px;border-bottom:1px solid rgb(221, 221, 221);">
+      <div style="position:absolute;right:20px;bottom:6px;font-weight:700;">
+        <a href="http://think-t.hatenablog.com/entries/2009/02/18" rel="nofollow" style="text-decoration:none;transition:opacity 0.3s ease, border, color, background;color:rgb(0, 0, 0);">
+          <span title="2009-02-17T15:00:00Z">
+            <span>2009</span><span>-</span><span>02</span><span>-</span><span>18</span>
+          </span>
+        </a>
+      </div>
+      <h1 style="font-size:26px;margin:0px;line-height:1.3;">
+        <a href="http://think-t.hatenablog.com/entry/20090218" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">サーバを調査する時にやること(Linux編)</a>
+      </h1>
+
+      
+      
+        <div>
+          
+          <a href="http://think-t.hatenablog.com/archive/category/Linux" style="text-decoration:none;transition:opacity 0.3s ease, border, color, background;color:rgb(102, 102, 102);margin-right:5px;line-height:1.5;">Linux</a>
+          
+        </div>
+      
+      
+
+      
+    </div>
+        
+    <div style="margin:20px 0px;padding:0px 20px;font-size:14px;line-height:1.8;">
+
+      
+        <p style="margin:0.8em 0px;">今日から少しずつ書いていきたいと思います。<br/>
+今回のお題は <a href="http://d.hatena.ne.jp/keyword/Linux" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">Linux</a> サーバの調べ方です。<br/>
+サーバにログインして一から調べなくてはならない事もあると思います。<br/>
+そんな時の調査方法一例です。</p>
+
+<div>
+    <h4 style="clear:both;margin:1em 0px 0.5em;font-size:120%;">ハードウェア周り(CPU/メモリ/ディスク)</h4>
+    <p style="margin:0.8em 0px;">まずはハードウェアの情報です。</p>
+
+<div>
+    <h5 style="clear:both;margin:1em 0px 0.5em;font-size:110%;">搭載されているCPUの情報を調べる</h5>
+    <p style="margin:0.8em 0px;">$ cat /proc/cpuinfo<br/>
+/proc/cpuinfo から、搭載されているCPUが分かります。<br/>
+ちなみに、CPUが複数搭載されていると、個数分出力されます。</p>
+
+</div>
+<div>
+    <h5 style="clear:both;margin:1em 0px 0.5em;font-size:110%;">搭載されているメモリ容量を調べる</h5>
+    <p style="margin:0.8em 0px;">$ cat /proc/meminfo<br/>
+/proc/meminfo の MemTotal の値を見ると、搭載されているメモリ容量が分かります。</p>
+
+</div>
+<div>
+    <h5 style="clear:both;margin:1em 0px 0.5em;font-size:110%;">ハードディスク関連の情報を調べる</h5>
+    
+<ol style="margin:0px 0px 0px 1.5em;padding:0px;">
+<li>$ df -k</li>
+<li>$ cat /etc/fstab</li>
+<li>$ cat /etc/mdstat</li>
+</ol><p style="margin:0.8em 0px;">1.の df -k でマウントとディスク使用状況が分かります。<br/>
+2.の /etc/fstab でも同じような事が分かりますが、こちらでは使用している<a href="http://d.hatena.ne.jp/keyword/%A5%D5%A5%A1%A5%A4%A5%EB%A5%B7%A5%B9%A5%C6%A5%E0" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">ファイルシステム</a>が分かります。<br/>
+<a href="http://d.hatena.ne.jp/keyword/%A5%BD%A5%D5%A5%C8%A5%A6%A5%A7%A5%A2RAID" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">ソフトウェアRAID</a>を使っている場合は、3.の /proc/mdstat から、<a href="http://d.hatena.ne.jp/keyword/RAID" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">RAID</a>の状態が分かります。</p>
+
+</div>
+</div>
+<div>
+    <h4 style="clear:both;margin:1em 0px 0.5em;font-size:120%;">OS関連</h4>
+    <p style="margin:0.8em 0px;">続いてOS周りの調査です。</p>
+
+<div>
+    <h5 style="clear:both;margin:1em 0px 0.5em;font-size:110%;"><a href="http://d.hatena.ne.jp/keyword/%A5%AB%A1%BC%A5%CD%A5%EB" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">カーネル</a>のバージョン</h5>
+    <p style="margin:0.8em 0px;">$ <a href="http://d.hatena.ne.jp/keyword/uname" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">uname</a> -a<br/>
+<a href="http://d.hatena.ne.jp/keyword/uname" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">uname</a> コマンドで<a href="http://d.hatena.ne.jp/keyword/%A5%AB%A1%BC%A5%CD%A5%EB" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">カーネル</a>のバージョンを確認できます。</p>
+
+</div>
+<div>
+    <h5 style="clear:both;margin:1em 0px 0.5em;font-size:110%;">OSブート時の引数</h5>
+    <p style="margin:0.8em 0px;">$ cat /proc/cmdline<br/>
+/proc/cmdline ファイルからOSブート時の引数が分かります。</p>
+
+</div>
+<div>
+    <h5 style="clear:both;margin:1em 0px 0.5em;font-size:110%;">ユーザ/グループ</h5>
+    
+<ol style="margin:0px 0px 0px 1.5em;padding:0px;">
+<li>$ cat /etc/passwd</li>
+<li>$ cat /etc/group</li>
+</ol><p style="margin:0.8em 0px;">/etc/passwd, /etc/group ファイルからユーザ/グループの情報を調査します。</p>
+
+</div>
+<div>
+    <h5 style="clear:both;margin:1em 0px 0.5em;font-size:110%;">パッケージリスト</h5>
+    <p style="margin:0.8em 0px;">$ <a href="http://d.hatena.ne.jp/keyword/rpm" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">rpm</a> -qa <br/>
+<a href="http://d.hatena.ne.jp/keyword/rpm" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">rpm</a> コマンドに -qa オプションを付けることで、インストールされているパッケージ一覧が出力されます。</p>
+
+</div>
+<div>
+    <h5 style="clear:both;margin:1em 0px 0.5em;font-size:110%;">登録されているサービス</h5>
+    <p style="margin:0.8em 0px;"># chkconfig --list<br/>
+chkconfig コマンドに --list オプションを付けることで、登録されているサービス一覧と、起動レベルごとの on / off 設定状況が分かります。</p>
+
+</div>
+</div>
+<div>
+    <h4 style="clear:both;margin:1em 0px 0.5em;font-size:120%;">稼動状況の調査</h4>
+    <p style="margin:0.8em 0px;">実際のサーバの稼動状況を調べてみます。</p>
+
+<div>
+    <h5 style="clear:both;margin:1em 0px 0.5em;font-size:110%;">稼動プロセス</h5>
+    
+<ol style="margin:0px 0px 0px 1.5em;padding:0px;">
+<li># ps -ef</li>
+<li>$ <a href="http://d.hatena.ne.jp/keyword/netstat" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">netstat</a> -an</li>
+<li># lsof -i</li>
+</ol><p style="margin:0.8em 0px;">1.の ps コマンドに -ef オプションを付けることでシステムで動いているプロセスが表示されます。<br/>
+2.の <a href="http://d.hatena.ne.jp/keyword/netstat" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">netstat</a> コマンドに -an オプションを付けることで、Listenポートの確認が出来ます。<br/>
+3.の lsof でも iオプションを付けることで、同じような情報が取れますが、コマンド名やPIDが分かる分、分かりやすいかもしれません。</p>
+
+</div>
+<div>
+    <h5 style="clear:both;margin:1em 0px 0.5em;font-size:110%;">ネットワーク</h5>
+    
+<ol style="margin:0px 0px 0px 1.5em;padding:0px;">
+<li># ifconfig -a</li>
+<li>$ <a href="http://d.hatena.ne.jp/keyword/netstat" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">netstat</a> -nr</li>
+</ol><p style="margin:0.8em 0px;">1.の ifconfig コマンドで、<a href="http://d.hatena.ne.jp/keyword/IP%A5%A2%A5%C9%A5%EC%A5%B9" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">IPアドレス</a>設定を確認します。<br/>
+2.の <a href="http://d.hatena.ne.jp/keyword/netstat" style="transition:opacity 0.3s ease, border, color, background;word-wrap:break-word;text-decoration:none;border-bottom:1px solid rgb(222, 222, 222);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">netstat</a> コマンドに -r オプションを付けることで、ルーティングの情報を調査します。</p>
+
+</div>
+<div>
+    <h5 style="clear:both;margin:1em 0px 0.5em;font-size:110%;">登録されているジョブ</h5>
+    <p style="margin:0.8em 0px;"># crontab [ -u user ] -l</p><p style="margin:0.8em 0px;">crontab コマンドに -l オプションを付けることで登録されているジョブの一覧が分かります。</p>
+
+<ul style="margin:0px 0px 0px 1.5em;padding:0px;">
+<li>u オプションを付けることで、root 以外の各ユーザも調査します。</li>
+</ul><p style="margin:0.8em 0px;">ありきたりですが、今日はこんなところで。</p>
+
+</div>
+</div>
+      
+    </div>
+    <div style="display:block;clear:both;margin:30px 20px 0px;">
+      <p style="color:rgb(143, 143, 143);font-style:italic;margin:0px;">
+        <span><span>think-t</span></span>
+        <span><a href="http://think-t.hatenablog.com/entry/20090218" style="transition:opacity 0.3s ease, border, color, background;color:rgb(143, 143, 143);text-decoration:underline;"><span title="2009-02-17T15:00:00Z">7年前</span></a></span>
+      </p>
+
+      
+        <div style="margin-bottom:8px;min-height:24px;">
+        <span><en-media type="image/png" hash="24aa81195083f8f942ef4e7ff3e4c3b0" alt="Add Star" title="Add Star" width="32" height="20" style="border:none;margin:0px 3px;cursor:pointer;padding:0px;vertical-align:middle;"/></span></div>
+        
+      
+
+      
+<div style="margin:10px 0px;">
+  
+  
+    <div style="display:inline-block;vertical-align:top;margin-right:0.2em;margin-bottom:5px;">
+      <div title="この記事をはてなブックマークに追加" style="width:80px;height:60px;"/>
+    </div>
+  
+  
+    <div style="display:inline-block;vertical-align:top;margin-right:0.2em;margin-bottom:5px;">
+      <div style="display:inline-block;position:relative;"><span style="vertical-align:bottom;display:inline-block;position:relative;text-align:justify;width:61px;height:40px;"><div title="fb:share_button Facebook Social Plugin" style="position:absolute;border:none;visibility:visible;width:61px;height:40px;"/></span></div>
+    </div>
+  
+  
+    <div style="display:inline-block;vertical-align:top;margin-right:0.2em;margin-bottom:5px;">
+      <a href="https://twitter.com/search?q=http%3A%2F%2Fthink-t.hatenablog.com%2Fentry%2F20090218" target="_blank" style="text-align:center;transition:opacity 0.3s ease, border, color, background;display:block;border:1px solid rgb(187, 187, 187);min-height:18px;min-width:15px;margin-bottom:5px;background:rgb(255, 255, 255);border-radius:3px;width:100%;height:34px;text-decoration:none;color:rgb(61, 63, 68);box-sizing:border-box;position:relative;">
+        <span style="font-size:16px;line-height:32px;color:rgb(61, 63, 68);text-decoration:none;font-weight:400;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;">list</span>
+        <i style="border-width:4px 4px 0px;position:absolute;width:0px;height:0px;line-height:0;top:auto;left:50%;bottom:0px;right:auto;margin:0px 0px -4px -4px;zoom:1;border-top-style:solid;border-right-style:solid;border-left-style:solid;border-top-color:rgb(187, 187, 187);border-right-color:transparent;border-left-color:transparent;border-image:initial;border-bottom-style:initial;border-bottom-color:initial;"/>
+        <u style="border-width:4px 4px 0px;position:absolute;width:0px;height:0px;line-height:0;top:auto;left:50%;bottom:0px;right:auto;margin:0px 0px -4px -4px;zoom:1;border-top-style:solid;border-right-style:solid;border-left-style:solid;border-top-color:rgb(255, 255, 255);border-right-color:transparent;border-left-color:transparent;border-image:initial;border-bottom-style:initial;border-bottom-color:initial;margin-bottom:-3px;"/>
+      </a>
+      <div title="Twitter Tweet Button" style="position:static;visibility:visible;width:75px;height:20px;"/>
+    </div>
+  
+  
+    <div style="display:inline-block;vertical-align:top;margin-right:0.2em;margin-bottom:5px;">
+      <div style="line-height:normal;text-indent:0px;padding:0px;background:transparent;border-style:none;float:none;margin:0px;font-size:1px;vertical-align:baseline;display:inline-block;width:50px;height:60px;"><div title="+1" style="position:static;top:0px;width:50px;margin:0px;border-style:none;left:0px;visibility:visible;height:60px;"/></div>
+    </div>
+  
+  
+  
+  
+</div>
+
+
+      
+        
+          
+            
+            <div style="font-size:16px;margin:0px 0px 1em;clear:both;font-family:Helvetica, Arial, &quot;ヒラギノ角ゴ Pro W3&quot;, &quot;Hiragino Kaku Gothic Pro&quot;, sans-serif;display:block;visibility:visible;width:auto;height:auto;opacity:1;position:static;">
+              
+              
+                
+
+                <div style="display:block;visibility:visible;width:auto;height:auto;opacity:1;position:static;"><div style="opacity:1;border:0pt none;display:inline-block;width:300px;height:250px;"><div title="3rd party ad content" style="opacity:1;border:0px;vertical-align:bottom;"/></div></div>
+                
+                  <a href="http://blog.hatena.ne.jp/guide/pro" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;border:none;visibility:hidden;display:inline-block;font-size:12px;padding-top:4px;opacity:1;">広告を非表示にする</a>
+                
+                
+              
+            </div>
+          
+        
+      
+
+      <div>
+
+        
+
+          
+
+          
+
+
+          
+        
+      </div>
+
+      <div>
+        
+        <ul style="margin:0px 0px 10px;padding:0px;"><li style="position:relative;list-style:none;padding:0px 8px;border-left:4px solid rgb(223, 223, 223);margin:15px 0px;">
+  <p style="display:inline;font-weight:700;margin:0px 0.3em 0px 0px;"><en-media type="image/gif" hash="3490dddb1a5ec6d444d2af1655bc62ba" alt="" title="" width="16" height="16" style="border:none;width:16px;height:16px;"/> <a href="http://blog.hatena.ne.jp/ishikawa84g/" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;"><span>id:ishikawa84g</span></a></p>
+  <div style="line-height:1.7;"><p style="margin:0.5em 0px;word-wrap:break-word;">Blog 開設おめでとうございます。早速来ました！<br/>いつも触られている環境は RedHat 系ですかー。</p>
+</div>
+
+  <p style="display:block;margin:0px;color:rgb(170, 170, 170);">
+    
+    
+
+    <span>7年前</span>
+  <span><en-media type="image/png" hash="24aa81195083f8f942ef4e7ff3e4c3b0" alt="Add Star" title="Add Star" width="32" height="20" style="border:none;margin:0px 3px;cursor:pointer;padding:0px;vertical-align:middle;"/></span></p>
+
+  <a href="http://think-t.hatenablog.com/entry/20090218#" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+  </a>
+</li>
+<li style="position:relative;list-style:none;padding:0px 8px;border-left:4px solid rgb(223, 223, 223);margin:15px 0px;">
+  <p style="display:inline;font-weight:700;margin:0px 0.3em 0px 0px;"><en-media type="image/gif" hash="5451633bf68ef2a242818c984d40b9f7" alt="" title="" width="16" height="16" style="border:none;width:16px;height:16px;"/> <a href="http://blog.hatena.ne.jp/think-t/" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;"><span>id:think-t</span></a></p>
+  <div style="line-height:1.7;"><p style="margin:0.5em 0px;word-wrap:break-word;">早速ありがとうございます〜。普段触るのはRedhat系ですね。最近はほとんどCentOS入れてますね。</p>
+</div>
+
+  <p style="display:block;margin:0px;color:rgb(170, 170, 170);">
+    
+    
+
+    <span>7年前</span>
+  <span><en-media type="image/png" hash="24aa81195083f8f942ef4e7ff3e4c3b0" alt="Add Star" title="Add Star" width="32" height="20" style="border:none;margin:0px 3px;cursor:pointer;padding:0px;vertical-align:middle;"/></span></p>
+
+  <a href="http://think-t.hatenablog.com/entry/20090218#" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+  </a>
+</li>
+<li style="position:relative;list-style:none;padding:0px 8px;border-left:4px solid rgb(223, 223, 223);margin:15px 0px;">
+  <p style="display:inline;font-weight:700;margin:0px 0.3em 0px 0px;"><en-media type="image/gif" hash="6314fbe8417cf6e6ac9e64fc400329e4" alt="" title="" width="16" height="16" style="border:none;width:16px;height:16px;"/> <a href="http://blog.hatena.ne.jp/hshinji/" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;"><span>id:hshinji</span></a></p>
+  <div style="line-height:1.7;"><p style="margin:0.5em 0px;word-wrap:break-word;">ishikawaさんに教えてもらいました。<br/>今OSCの会場で、隣にishikawaさんがいます。<br/>更新を楽しみにしてますね〜</p>
+</div>
+
+  <p style="display:block;margin:0px;color:rgb(170, 170, 170);">
+    
+    
+
+    <span>7年前</span>
+  <span><en-media type="image/png" hash="24aa81195083f8f942ef4e7ff3e4c3b0" alt="Add Star" title="Add Star" width="32" height="20" style="border:none;margin:0px 3px;cursor:pointer;padding:0px;vertical-align:middle;"/></span></p>
+
+  <a href="http://think-t.hatenablog.com/entry/20090218#" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+  </a>
+</li>
+          <li style="text-align:center;list-style-type:none;list-style:none;padding:0px 8px;border-left:4px solid rgb(223, 223, 223);margin:15px 0px;"><a style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;cursor:pointer;">もっと読む (1)</a></li>
+        </ul>
+        
+          <a style="color:rgb(204, 0, 0);text-decoration:none;cursor:pointer;transition:opacity 0.3s ease, border, color, background;font-size:12px;font-weight:700;padding:5px 15px;display:inline;border:1px solid rgb(223, 223, 223);">コメントを書く</a>
+        
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
+
+                
+
+                
+                  
+                  
+                  <div style="padding:20px 0px 20px 20px;margin-right:10px;">
+                    
+                      
+                      <span>
+                        <a href="http://think-t.hatenablog.com/entry/20090323/1252686007" rel="prev" style="background:rgb(187, 187, 187);color:rgb(245, 245, 245);transition:opacity 0.3s ease, border, color, background;font-weight:700;padding:5px 25px;text-decoration:none;font-size:13px;line-height:1.5;word-wrap:break-word;display:inline-block;max-width:200px;">
+                          <span>« </span>
+                          sarのデータを7日以上残す
+                        </a>
+                      </span>
+                    
+                    
+                  </div>
+                
+
+              
+            
+            
+            
+
+            
+          
+        </div>
+      </div>
+
+      
+      <div style="display:block;margin-right:200px;">
+        <div>
+        </div>
+      </div>
+
+    <span style="font-size:0px;display:block;height:0px;clear:both;visibility:hidden;">.</span></div>
+
+    <div style="display:block;word-wrap:break-word;width:160px;margin:20px;font-size:13px;float:left;">
+  
+  <div>
+    
+      
+
+<div style="margin-bottom:50px;font-size:12px;">
+  <div style="text-align:left;font-size:15px;font-weight:700;margin-bottom:5px;padding-bottom:3px;color:rgb(61, 61, 61);">
+    プロフィール
+  </div>
+  <div>
+    
+    <a href="http://think-t.hatenablog.com/about" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+      <en-media type="image/gif" hash="5451633bf68ef2a242818c984d40b9f7" alt="id:think-t" width="64" height="64" style="border:1px solid rgb(204, 204, 204);max-width:100%;height:auto;"/>
+    </a>
+    
+
+    
+    <span style="display:block;line-height:2;font-weight:700;">
+      <a href="http://think-t.hatenablog.com/about" style="text-decoration:none;transition:opacity 0.3s ease, border, color, background;color:rgb(186, 0, 0);"><span>id:think-t</span></a>
+      
+  
+    
+    
+  
+
+
+    </span>
+    
+
+    
+
+    
+
+    
+      <div style="clear:both;height:20px;margin:0.7em 0px;display:block;font-size:10px;">
+
+  <a href="http://think-t.hatenablog.com/entry/20090218#" style="float:left;display:inline-block;padding-right:5px;min-width:40px;border-radius:3px;transition:opacity 0.3s ease, border, color, background;font-weight:700;text-decoration:none;overflow:hidden;padding-left:20px;white-space:nowrap;text-overflow:ellipsis;background:url(&amp;quot;https://cdn.blog.st-hatena.com/images/theme/hatena-follow-button.png?version=4761c38ee37ae756cb190faa168483d1903ed164&amp;quot;) 0px 0px no-repeat, -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255, 255, 255)), to(rgb(221, 221, 221)));height:18px;border:1px solid rgb(187, 187, 187);line-height:18px;color:rgb(85, 85, 85);letter-spacing:0px;">
+    
+    <span style="display:inline;">
+      <span>読者になる</span>
+      
+    </span>
+  </a>
+  <div style="display:block;position:relative;float:left;margin:0px 0px 0px 5px;">
+    <i style="border-width:4px 4px 4px 0px;position:absolute;zoom:1;line-height:0;width:0px;height:0px;left:0px;top:50%;margin:-4px 0px 0px -4px;z-index:10;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-top-color:transparent;border-bottom-color:transparent;border-image:initial;border-right-color:rgb(187, 187, 187);border-left-style:initial;border-left-color:initial;"/>
+    <u style="border-top-style:solid;position:absolute;zoom:1;line-height:0;width:0px;height:0px;left:0px;top:50%;margin:-4px 0px 0px -4px;border-width:4px 4px 4px 0px;z-index:10;border-right-style:solid;border-bottom-style:solid;border-top-color:transparent;border-bottom-color:transparent;border-image:initial;border-right-color:rgb(255, 255, 255);border-left-style:initial;border-left-color:initial;margin-left:-3px;"/>
+    <span style="font-size:12px;float:left;height:18px;line-height:18px;padding:0px 5px;display:block;min-width:8px;border:1px solid rgb(187, 187, 187);background:rgb(255, 255, 255);border-radius:3px;margin-left:-1px;position:relative;z-index:9;font-family:Helvetica, Ariel, sans-serif;color:rgb(69, 69, 69);">3</span>
+  </div>
+<span style="font-size:0px;display:block;visibility:hidden;height:0px;clear:both;">.</span></div>
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+      
+      
+    
+      <div style="margin-bottom:50px;font-size:12px;">
+  <div style="text-align:left;font-size:15px;font-weight:700;margin-bottom:5px;padding-bottom:3px;color:rgb(61, 61, 61);">
+    検索
+  </div>
+  <div>
+    <div style="margin-top:10px;">
+      
+      
+    </div>
+  </div>
+</div>
+
+      
+      
+    
+      <div style="margin-bottom:50px;font-size:12px;">
+  <div style="text-align:left;font-size:15px;font-weight:700;margin-bottom:5px;padding-bottom:3px;color:rgb(61, 61, 61);">
+    <a href="http://think-t.hatenablog.com/archive" style="text-decoration:none;transition:opacity 0.3s ease, border, color, background;color:rgb(61, 61, 61);text-align:left;font-size:15px;font-weight:700;margin-bottom:5px;padding-bottom:3px;">
+      最新記事
+    </a>
+  </div>
+  <div>
+    <ul style="margin:0px;padding:0px;list-style:none;line-height:1.5;">
+  
+  
+    
+    <li style="border-bottom:1px solid rgb(221, 221, 221);padding:0.5em 0px;">
+      <div>
+        
+        
+        <a href="http://think-t.hatenablog.com/entry/2016/09/04/160600" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;font-size:110%;">awscliでWindowsインスタンスのパスワードを取得する        </a>
+        
+        
+
+              </div>
+    </li>
+  
+    
+    <li style="border-bottom:1px solid rgb(221, 221, 221);padding:0.5em 0px;">
+      <div>
+        
+        
+        <a href="http://think-t.hatenablog.com/entry/2016/08/27/151651" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;font-size:110%;">Windows Server 2012R2でIE Enhanced Security Configurationの設定を変更する        </a>
+        
+        
+
+              </div>
+    </li>
+  
+    
+    <li style="border-bottom:1px solid rgb(221, 221, 221);padding:0.5em 0px;">
+      <div>
+        
+        
+        <a href="http://think-t.hatenablog.com/entry/2016/04/23/152654" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;font-size:110%;">ChefDKバージョンアップ時に"No live threads left. Deadlock? (fatal)"        </a>
+        
+        
+
+              </div>
+    </li>
+  
+</ul>
+
+  </div>
+</div>
+
+      
+      
+    
+      
+
+<div style="margin-bottom:50px;font-size:12px;">
+  <div style="text-align:left;font-size:15px;font-weight:700;margin-bottom:5px;padding-bottom:3px;color:rgb(61, 61, 61);">
+    <a href="http://think-t.hatenablog.com/archive" style="text-decoration:none;transition:opacity 0.3s ease, border, color, background;color:rgb(61, 61, 61);text-align:left;font-size:15px;font-weight:700;margin-bottom:5px;padding-bottom:3px;">月別アーカイブ</a>
+  </div>
+  <div>
+  
+
+  
+    
+    
+      <ul style="margin:0px;padding:0px;list-style:none;line-height:1.5;padding-left:0px;margin-left:0px;">
+        
+          <li style="padding:0.5em 0px;list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://think-t.hatenablog.com/archive/2016" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+              2016 (5)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:0.5em 0px;list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://think-t.hatenablog.com/archive/2015" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+              2015 (15)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:0.5em 0px;list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://think-t.hatenablog.com/archive/2014" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+              2014 (29)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:0.5em 0px;list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://think-t.hatenablog.com/archive/2013" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+              2013 (23)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:0.5em 0px;list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://think-t.hatenablog.com/archive/2012" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+              2012 (22)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:0.5em 0px;list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://think-t.hatenablog.com/archive/2011" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+              2011 (54)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:0.5em 0px;list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://think-t.hatenablog.com/archive/2010" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+              2010 (51)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:0.5em 0px;list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              <span style="cursor:pointer;">▼</span>
+              
+            </div>
+            <a href="http://think-t.hatenablog.com/archive/2009" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+              2009 (8)
+            </a>
+            <ul style="margin:0px;padding:0px;list-style:none;line-height:1.5;padding-left:0px;margin-left:0px;background:none;">
+              
+                <li style="margin:0px 0px 0px 2.5em;padding:0px;border:none;background:none;list-style-type:none;"><span style="list-style-type:none;"/>
+                  <a href="http://think-t.hatenablog.com/archive/2009/12" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+                    2009 / 12 (1)
+                  </a>
+                <span style="list-style-type:none;"/></li>
+              
+                <li style="margin:0px 0px 0px 2.5em;padding:0px;border:none;background:none;list-style-type:none;"><span style="list-style-type:none;"/>
+                  <a href="http://think-t.hatenablog.com/archive/2009/11" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+                    2009 / 11 (1)
+                  </a>
+                <span style="list-style-type:none;"/></li>
+              
+                <li style="margin:0px 0px 0px 2.5em;padding:0px;border:none;background:none;list-style-type:none;"><span style="list-style-type:none;"/>
+                  <a href="http://think-t.hatenablog.com/archive/2009/9" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+                    2009 / 9 (2)
+                  </a>
+                <span style="list-style-type:none;"/></li>
+              
+                <li style="margin:0px 0px 0px 2.5em;padding:0px;border:none;background:none;list-style-type:none;"><span style="list-style-type:none;"/>
+                  <a href="http://think-t.hatenablog.com/archive/2009/8" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+                    2009 / 8 (1)
+                  </a>
+                <span style="list-style-type:none;"/></li>
+              
+                <li style="margin:0px 0px 0px 2.5em;padding:0px;border:none;background:none;list-style-type:none;"><span style="list-style-type:none;"/>
+                  <a href="http://think-t.hatenablog.com/archive/2009/3" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+                    2009 / 3 (2)
+                  </a>
+                <span style="list-style-type:none;"/></li>
+              
+                <li style="margin:0px 0px 0px 2.5em;padding:0px;border:none;background:none;list-style-type:none;"><span style="list-style-type:none;"/>
+                  <a href="http://think-t.hatenablog.com/archive/2009/2" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+                    2009 / 2 (1)
+                  </a>
+                <span style="list-style-type:none;"/></li>
+              
+            </ul>
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+      </ul>
+    
+  
+
+
+</div>
+</div>
+
+      
+      
+    
+      
+
+<div style="margin-bottom:50px;font-size:12px;">
+  <div style="text-align:left;font-size:15px;font-weight:700;margin-bottom:5px;padding-bottom:3px;color:rgb(61, 61, 61);">
+    カテゴリー
+  </div>
+  <div>
+    <ul style="margin:0px;padding:0px;list-style:none;line-height:1.5;">
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Amanda" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Amanda (2)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Apache" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Apache (10)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/AWS" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            AWS (20)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/AWS%20CloudTrail" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            AWS CloudTrail (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/AWS%20Config" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            AWS Config (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/AWS%20Directory%20Service" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            AWS Directory Service (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/awscli" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            awscli (4)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/BIND" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            BIND (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Cacti" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Cacti (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Catalyst" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Catalyst (4)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/CentOS" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            CentOS (11)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Chef" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Chef (8)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Clonezilla" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Clonezilla (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/CloudFormation" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            CloudFormation (6)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/CloudWatch" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            CloudWatch (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/cobbler" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            cobbler (3)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Courier%20Mail%20Server" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Courier Mail Server (6)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Docker" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Docker (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/EC2" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            EC2 (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/EC2%20API%20Tools" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            EC2 API Tools (2)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/ElastiCache" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            ElastiCache (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/ELB" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            ELB (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Flood" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Flood (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Git" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Git (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/grub" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            grub (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/IAM" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            IAM (2)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Icinga" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Icinga (4)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/IPv6" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            IPv6 (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Jasperreports" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Jasperreports (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Java" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Java (2)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/KickStart" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            KickStart (3)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/KVM" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            KVM (10)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Linux" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Linux (82)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/LUKS" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            LUKS (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/LVM" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            LVM (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Mac" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Mac (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/MariaDB" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            MariaDB (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Monit" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Monit (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Munin" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Munin (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/MySQL" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            MySQL (6)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Nagios" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Nagios (10)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Nmap" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Nmap (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/one-liner" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            one-liner (4)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/OpenSolaris" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            OpenSolaris (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/openssl" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            openssl (2)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/OTRS" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            OTRS (2)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Packer" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Packer (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Perfparse" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Perfparse (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Perl" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Perl (3)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/pg_rman" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            pg_rman (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/PNP4Nagios" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            PNP4Nagios (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/postfix" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            postfix (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/PostgreSQL" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            PostgreSQL (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Puppet" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Puppet (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Python" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Python (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Recovery%20Manager%20for%20MySQL" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Recovery Manager for MySQL (2)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/RPM" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            RPM (6)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/rsync" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            rsync (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Rundeck" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Rundeck (2)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/S3" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            S3 (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/SecurityGroup" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            SecurityGroup (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/SELinux" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            SELinux (8)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/serverspec" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            serverspec (7)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/SOS%20Jobscheduler" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            SOS Jobscheduler (2)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Spacewalk" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Spacewalk (7)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/SSH" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            SSH (3)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Terraform" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Terraform (2)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/test-kitchen" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            test-kitchen (6)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/TIPS" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            TIPS (44)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Tomcat" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Tomcat (2)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Traffic%20Server" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Traffic Server (2)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/TrailDash" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            TrailDash (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Tripwire" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Tripwire (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/ubuntu" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            ubuntu (9)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Vagrant" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Vagrant (2)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/VirtualBox" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            VirtualBox (3)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/VNC" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            VNC (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/VPC" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            VPC (4)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/vsftpd" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            vsftpd (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Windows" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Windows (4)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Xen" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Xen (8)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/Zabbix" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            Zabbix (1)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2RAID" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            ソフトウェアRAID (3)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/%E3%83%A1%E3%83%A2" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            メモ (9)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/%E4%BB%96" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            他 (2)
+          </a>
+        </li>
+      
+        <li style="padding:0.5em 0px;">
+          <a href="http://think-t.hatenablog.com/archive/category/%E9%81%8B%E7%94%A8" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;">
+            運用 (5)
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+      
+      
+    
+    
+  </div>
+</div>
+
+  </div>
+<span style="color:rgb(61, 61, 61);display:block;height:0px;font-size:0px;clear:both;visibility:hidden;">.</span></div>
+
+
+
+
+        
+        
+          
+        
+        
+      </div>
+    </div>
+
+    
+      <div style="display:block;clear:both;text-align:center;padding:20px 0px;font-size:small;">
+  <div>
+    <address style="font-style:normal;">
+      
+      <a href="http://think-t.hatenablog.com/about" style="text-decoration:none;transition:opacity 0.3s ease, border, color, background;color:rgb(223, 223, 223);"><en-media type="image/gif" hash="5451633bf68ef2a242818c984d40b9f7" width="16" height="16" alt="" style="border:none;"/>
+        <span>think-t</span>
+      </a>
+    </address>
+    <p>Powered by <a href="http://hatenablog.com/" style="text-decoration:none;transition:opacity 0.3s ease, border, color, background;color:rgb(223, 223, 223);">Hatena Blog</a></p>
+  </div>
+</div>
+
+    
+
+    
+
+    
+  
+
+
+    
+  
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+    
+  <div style="letter-spacing:normal;background:none;border-spacing:0px;color:rgb(0, 0, 0);cursor:auto;direction:ltr;font-family:&quot;lucida grande&quot;, tahoma, verdana, arial, &quot;hiragino kaku gothic pro&quot;, meiryo, &quot;ms pgothic&quot;, sans-serif;font-size:11px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:normal;border:0px;line-height:1;margin:0px;overflow:visible;padding:0px;text-align:left;text-decoration:none;text-indent:0px;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;"><div style="overflow:hidden;position:absolute;top:-10000px;height:0px;width:0px;"><div><div title="Facebook Cross Domain Communication Frame" style="border:none;"/><div title="Facebook Cross Domain Communication Frame" style="border:none;"/></div></div><div style="overflow:hidden;position:absolute;top:-10000px;height:0px;width:0px;"><div/></div></div>
+  
+
+
+
+    
+       
+
+
+    
+
+  
+
+
+<div style="top:-9999px;z-index:-9999;"/><div><a href="http://think-t.hatenablog.com/entry/20090218#" title="Edit settings" style="color:rgb(204, 0, 0);text-decoration:none;transition:opacity 0.3s ease, border, color, background;"/><span>Window size: </span><span/> x <span/><br/><span>Viewport size: </span><span/> x <span/></div><div style="width:1px;height:1px;position:absolute;top:-100px;"/></div></div></div><br/></div></en-note>]]></content><created>20161014T050144Z</created><note-attributes><source>web.clip</source><source-url>http://think-t.hatenablog.com/entry/20090218</source-url></note-attributes><resource><data encoding="base64">
+iVBORw0KGgoAAAANSUhEUgAAACAAAAAUCAMAAAGsSP/rAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMjgwMTE3NDA3MjA2ODExODhDNjg1RDM2M0M4
+QzgxMiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGQjAwMEUwNUYzMUUxMUUxOUJERjg2MjlD
+MDY0NkJCNiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGQjAwMEUwNEYzMUUxMUUxOUJERjg2
+MjlDMDY0NkJCNiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9z
+aCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjk4QjExRTRD
+MTIyMDY4MTE4OEM2ODVEMzYzQzhDODEyIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAyODAx
+MTc0MDcyMDY4MTE4OEM2ODVEMzYzQzhDODEyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpS
+REY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+ZDO3MQAAAI1QTFRF9fX1zMzMzMzM
+zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM1tbW19fX4ZkQ4pQE5JcH5KYx5qxB
+57NS6JwP6ZQA6sBy68eD6+vr7KAW7Ozs7aEX7c2T7tSj76Mb79u07+/v8PDw8eHE8fHx8ujU8/Pz
+9O7l9aol9fX1+a8t/7Y4////bAs01QAAAA50Uk5TAFpgb3J1fsPJ2Nve5/ArRi4MAAAA6ElEQVQo
+z32RgVaCQBBFpzQrkwkEEY1clVSWB/z/5zW7qxtb0j2Hw8zjMjsHiJiZOFUgBmA6JpRSwbZwSJHs
+bPHClgd5rkxQE5I2dQWya+KoaYGALzdvqeENE+Rdo1EIt+AIbL0xq4IZMT3ykGeic3jKmztf+SCy
+gV4GgUrLNk2Awhu66XLArnF9ZZeJMDC2djX0P0MHRBQHfTWl2fsnRvmIn/znlcP1X6OOBsJqNS5c
+BFWWytxx2ziYcMoOnXDITrgvyF9o2rbJTdX3fSHXL2G/3gCb9RGjE+4jwuL8n1DNiaZzHuV1Qt/c
+bVptIor4RQAAAABJRU5ErkJggg==
+</data><mime>image/png</mime><width>32</width><height>20</height><resource-attributes><source-url>https://cdn.blog.st-hatena.com/images/theme/star/hatena-star-add-button.png?version=f8e3dba1253cbde1c3eab8dc5a6497b3</source-url><file-name>hatena-star-add-button.png</file-name></resource-attributes></resource><resource><data encoding="base64">
+R0lGODlhQABAAOYAAOHi6uHj9e/u9O/c3ff3/Oro8+7v/PP2/Pv7/evq8PHw9fT0++3x96equ+no
+7vHy+9G+wubl8Ors9+bq72Vjaejr+uzs8rm7yKqstcCvt7ior7CpttK3sKKmuaWmsqOjp8KgmKuu
+vsKpqLCyvp+pxp2kv6CsyZSWo6OEfbuTg5KRmYeHj6WRkYyNl5qanoaInK+UlyooPaChsJehvLOJ
+eNHJ0sXG29rU3MzQ3N/BtMTH0uLKyMrByObW08zP1G90fm5sc3Bte3loZ1tcb2Rpd2pvezo6T3d2
+fmtcYWRncIVycGhsdnhkandtcoJ9foJoY5J4dbm6zaixzbO1yaWuybO30qqwyrq906Wqwsugiq60
+zUxMYLS2w7S5zqGvzKSxzq6xxJCatJmftpmbqomTrnFgbI6XsYORrIyPpJ58b25whX+CnH2Ak3V4
+h7aak31/icDC19bY8dXX58rL4czO7drc59HS5ZSbt93f7QAAAAAAAAAAAAAAAAAAAAAAAAAAACH/
+C05FVFNDQVBFMi4wAwEAAAAsAAAAAEAAQAAAB/+AHy4YIzoAB3h1DBYPE3g2cDp1AFwtbW1vmZor
+Lh+EGB4yHoRXOHJ1ODh4q6h1AgqwAgAAr7AKGB8XihMPEXIMCRM4Olc+qBgrl5iab5wfo6AeoyOl
+dnJyqXXa1wUCtQoOCbawPjcWEwcWDBI4EXXEOqcXJ20/P8qXby2dGNHShBdwWLuGY44ca3giWPBm
+65stcQR4rTMwTEdAADg8sLF3T9kRffw2RMMQYkTAa6dQWbMWoUACCxIkeHP4kIC6AwDq2Igiqc4F
+FfU4cvyoohM0UCRHcImHkuBKAAWiFogpwcLCmbAWODjAIGcqGzYA+JDxRuhQop1EIS05QqmNpk7/
+7eCRStflS6sLFUQs8ChKFByoKgXlWKRIkCMrin4QFcpDCC6QuZxEWUfOHMAt60ZNwPnuQpw4rly4
+YufdibJmCx9OnFbaP6WSL0w+ddBGDQg3NG/ujNeCHBuyfQCQE2JF4SL2jhtGXHSMDBnPpkGWfeEv
+XDs1MrDgkcCBd6mdOfe+sFSbDnrKfxResmS1ihMnVKjwMCLpdOpRDKK0c2OHGxQa3NCdAxMUAMAN
+AHiXgFQSXJTRRsqtx94Pzbw3xgor5OLDBbBRJ1t+B/HXQw85oNBECwJ6NwEAEGhQQ2d0aXMBGmpE
+KOESFLZg4RgnjBFbZPj5dcUcdmC3Qw45iPBG/xsj1BHBkxH0IAIKG4SzoFQ6kGVjEewtAUSOLowh
+5nMeNBDCY9P5FYVsQ/J3JAhusLDCGDjMMssA/inhQYLhFNDSRkQsEeESRCQBBHM9PkemmUrhd8UV
+ag45Bw8ccJACCiu0gEFKPbzpBBAj4DELlBEQEWigxxFqqBOJJbooo7FF+uijcMAhQxtBsMACqydw
+MckOHICwKxArSCIqAFCayh6XpibhJasWKtqBmSXFVl0Us84awgtEDLHFEEC8IcMFOuhAKQgoOHFE
+Gx6UtoqdpXZJaKFJUNiqc4wxqpSa2NJaaxd3tNHtFgRv0UIHY7xBBAVQoKDEEUe0oMu78HZJr/+h
+H7XQI76iNNBWo/3OWmutDbzwgsBDpDzEwFsYYcQWZXy5Qgim1LHKsRGomsTOS2S8MZllhgAGFyHX
+KjIcNkwywQQ+oeEtwS5HbcQQRbCBgUDXaGMzHgHs7HXP93JM7b5GXzHyyEkjoLbaBBTABRFSR70y
+GzLogHVTW3udRBEViin2mSOAcQHSkJw9sh0PEPDA4gY0bkAXLRsRg8tDJMHGGNUUCdcpXuf4c75C
+gzHCFIQXDtbpcxSg+AKsN15BAHGYIfnk377hQX5EFjlQUxQk4fOYiwrNxRSkow7J6WDhQQABCCy/
+gAQVVBAHHXAMEfUWb4Bhwxzc6655U4dm+nn/x6GDEUXp3M+BvB0BMN+88xLATscccLzQ8hZqhABW
++t7vfg1iGhufmYY2hfMhL33qm4Mi1vY+xUlvenDowglepgYPEI5//fOejuADPBl0IHQFrBXqiCSH
+lgiAectbGwEWIIACTI96IVhDEtowhiiMsHsZLBIaOAi8aYWuC+jbXgBOyEAGLm95CoiAHehAhyqg
+oQ1rGEPxtofA7mHQDjzElw+FFsL9zYEOAXjAAsSowiLC74t0MAMb0NABA1KxinAskt+kRS0wdEFI
+qAtjBVZBlfcVUSt4mF4HXnACLJjtgHBMpN/EMK0B2jFbhKvDAgwQgPnhYAMe0IEBFoBC5tVB/wZS
+FMMLxACGQyIykVUUEyPraMeQmQ0Oc2DAAwIghytYYQwgAIEK5rA4CUyFAD4QGBHY0IEpmBJ5VPQi
+90Yopg58kItdyJa/8HCAAMyhA2vAVcOgcIJVzCEOAZCADdQwhDa08ZXITKc6wcLIDmABC0KLpjQf
+JYcHMCAOWICby7aAhIfJoApzCIBAo7AyKWJLhOtMKDsbGYIp3HGeV7CBARCBBevFjQllGIIZ8PCA
+13UgCWto6EFLp1B1NhILj5RntqJQg+eBYQgxiOnkXIZR/NXhAHtEww/GYL6DHq+kp0OoM1Hq0Cuo
+dFYZEAEE4LCG2cl0chg1AhHkQAADRKENK//wQAH9pU6EFs5wNpgWGBx6x6NGIQMgoAEUgrCFpz4V
+CQRbQxjl8IIgnECkXEWe4fZ6tgaMlazR7NdZ0aUEuLbMrTHdJxYMUIEoqIGGY+0X2oLKV76CQQtd
+wGwXyioatKqVCUN4bFsROzk11DMAHQgCG7S6VX8RrrKGm5UWtEC8zdp2sClIgxAo0AY0mEENTpXp
+y07gAAHQNQgtaEBrj4Y02I4sW7PVrFGjyQUQ5PYJFGCDGcQgBjPA1K1bIAILRKCBFgThDSdopWvR
+Bltpbja6m31UFy4ggtwKoQwrEEMJSjADM7RhtLQjwhFYkAIolOEHLTCoK+HwythC9ApasIL/FeAb
+3ymIIAtpQMISRlkCLJCgBGZYAzkJRrU2oCAFNHgCscYQgodC9LkPfpQV3lkCCneBCyJAFxJ+QIYO
+Y4EKJihBGNbAhks8FqsoVoIQ3jAG5bo4xivlV2ZLwF0xTLgLU+BCUtPKBDWM4cdUsIIUqECCGZxh
+DURmwxpWkAL7HoHFDhUSlB/FL7+8twR3uEMYZjuFDeQyCwU+wh3AIOHZjpnMd0ADGl5wBjQQOMVl
+aEFDCxiF+MbYtpi2rRX6awYzzHYDMKABCtKQrhNIeMJV0IIUDk2CO5ABDWRwAYqhwATb2fGOsoJo
+pjOtBTybgQxkiPAYoAAFJDwBCivAghXC/xzdVR8aC1Qegxvs+wZSOrQKR31UFbZt6V1jeQpY0POv
+gy2FEwgBCUgQwhGsTAUqSEHVUji1hNsdAuvS4GE8vfa2q6DtfXM707WdAma1gIUwdBrYUjCBf4Fw
+mBO0292GjneYxfwFLGjAulB481/9zXF/Y5p4xIvubIV8cDKQub+KFsPD3w1vZ8fbCmC4eBZMlF59
+d5zjAAe5yK0AYmAD2wQm+DAJTNDuH7Pc5S/fwIUBrYQXjLULN4+6bUEe8uiGe9w/BzrRHx5mpDvb
+ChtwQxbGjoI3dGCs/L4Cx9V+8+gKXODR5XkYfA5sL9j94UP3usvBEGoa+B0KY4D5FKLO9v+Oi/zw
+y+Y03b/ghS98IegkcLfeVy0DFFg+DUow+5Wj3nYtbBvxEi441slwBsd7AciRn7yzT+AEYiuhCS+g
+QnQ57+/D2/7UJPf5GUrPeBKQoPFfUL0UZvCCIzQhXFaesOdpn2rb73ze/dX97hvvhaEDX/WIJvIo
+la385Rv+87OVt/iXjYXoA3v3Z7A70O3u+OCv2vHOJjN/xRD5Qtve8M8fv5gRjXX0A/337Nd+AigF
+X4B6vsd9zuZ8tadq+idvDydkdId+vmcCwMd4AniBQLdykwdvh/du2Id3d9B/EkiBdleBFiiA7Cd8
+XidyKsh1EEh66Ld761eCjFeCJmiBKpghg17Hde1mfjEogyRIfTZogwN4aO2mgzvIgyD4az+4e4EA
+ADs=
+</data><mime>image/gif</mime><width>64</width><height>64</height><recognition><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recoIndex PUBLIC "SYSTEM" "http://xml.evernote.com/pub/recoIndex.dtd"><recoIndex docType="unknown" objType="image" objID="3490dddb1a5ec6d444d2af1655bc62ba" engineVersion="7.0.24.1" recoType="service" lang="ja" objWidth="64" objHeight="64"><item x="0" y="2" w="63" h="63"><t w="32">嶋埴」</t><t w="31">嶋埴#</t><t w="31">艦埴」</t><t w="31">艦埴#</t><t w="30">嶋鍵」</t><t w="30">嶋鍵#</t><t w="30">艦鍵」</t><t w="30">艦鍵#</t><t w="29">嶋ガ」</t><t w="29">嶋ガ#</t></item></recoIndex>
+]]></recognition><resource-attributes><source-url>http://cdn1.www.st-hatena.com/users/is/ishikawa84g/profile.gif</source-url><file-name>profile.gif</file-name></resource-attributes></resource><resource><data encoding="base64">
+R0lGODlhQABAAPQAAM7f6snb6Nbk7tPi7NDg67bL29Tj7avD1cLV45u3y9jm76S90Mja5pOwx7vQ
+3524zcXY5Zezyb3R4I+txM3e6szd6crc6cvc6dHh7Mvd6crc6M/f69Lh7Mzd6s3e6c7e6SH5BAAA
+AAAAIf8LWE1QIERhdGFYTVD/P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJl
+U3pOVGN6a2M5ZCI/PiA8eDp4bXBtdGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9
+IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAg
+ICAgICAgIj48cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudy5vcmcvMTk5OS8wMi8yMi1y
+ZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmY6YWJvdXQ9IiIg/3htbG5zOnhtcE1N
+PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25z
+LmFkb2JlLmNvbS94YXAvMS4wL3NUcGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9u
+cy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4
+RTFBRkFEMzNGNDJFMTExQjA5OThEMTQ3QjIxQThCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlk
+OjJGMTc1NUU5NDU4MjExRf8xQUI4RENERTRGNzNEMEY2IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAu
+aWlkOjJGMTc1NUU4NDU4MjExRTFBQjhERUNERTRGNzNEMDYiIHhtcDpDcmVhdG9yVG9vbD0iQWRv
+YmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHNSZWY6aW5zdGFu
+Y2VJRD0ieG1wLmlpZDo5QjMzNTkzOTgxNDVFMTExQTBEREU3RkI3MjMyNzdDQSIgc3RSZWY6ZG9j
+dW1lbnRJRD0ieG1wLmRpZDo4RTFBRkFEMzNGNDJFMTExQjA5OThEMTQ3QjL/MUEyOEIvPiA8L3Jk
+ZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8eDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+
+Af/+/fz7+vn49/b19PPy8fDu7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjH
+xsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+O
+jYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZV
+VFNSUVBPTk1MS0pJSEdGRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4d
+HBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAALAAAAABAAEAAAAX+YCCOZGmeaKquLKtpVizH
+b2vf5htffOb/PB4NR0zBepmKcslcZoQWTXG6Sy4p2KwWy3xeolPb0drRfj6AtPqs7Si9lrBqrMye
+1Zu8Pq8GfLJvX1JyJRoXVnZpGwULERMPBwwEBQkTlgkFaX9cFU9xhCIWhxVlFGh5DA+Wq5aOrK0O
+G2mAnqCidaYAeQQODa+/wAsXsptKgmG3FViKBJPAz78JGbIAnMdEycu7ztDdqwkVBMQUxp832afN
+BBLe7ZYLzePlN4Z16QQYHr7u7Q7xfuQqfGlhKIm2ZhgwHODnLgKGf3+MDVJhwSAFXQgxDNjH0BuC
+h+KqkctgDkW9Mhj+8Wlk17HdAQ4gZXEZmKKisnQJBwxY2NJbggEJ40UUOLHErYP4OOis1NObzpgi
+BZYkYdPUBoRKBxho2m7DAJj/Al4oKqLewZxaCXD1qBOsPJpUDX64mlSrAQRruyEw8DRsp6n1lGFE
+a+BuXmh72z6USW4sCbMXsdoVgPcwMAaF+4qLCDdA1bkIdRYWAMEyMAEC+AL1SzKu4KsYshpAXdr0
+K9Sq3VZz4zgA5MFKR6O2zWoBbtUgARIte+EmgNCThxO3dAB1as0bOH86ChqfaOsKVE0vYB056+3N
+rUKfjVoBT+IByisOOXK7QeDf27O03UBBeb661RfKfbDJBt4G0x3+4N9xXy1WzV8DvlaXVuAp4Ipp
+CCyYGoAOCugZgROyJ4ACChTAnwEaZhYghJ6l151GFLangAa2KZjifDKxyB1dMIpIooWmMUCifKvR
+x6JZaKzno3uW9afhdUVm19gnvxUY3YgKVJaXjf9pplxvH0oYW35YbnVYhjc2SB9vE33Go2hLLnAY
+itZBCZWHzDknmXDtmbjWAkMyGKV2jzUnZo8+BrDWAQU8mVuHjZHl5p4ijujIhQ1NoMEGdWYW5YOt
+FZLeRbAhWqcDEkjAUTuMOPpoSISaMGmIlZLIiDsQSODqfEYuJ+uoKY15pQAfFLAqNAfE1yV2UXVm
+lFyDwRhdbR2uVbchcjENBWYOzaHEo7SjvcdQAxvqpCZ9U65QFakZmWsAAcfyU4Bq5zLG4hyjIJWQ
+Uhsw1ZQDT0GlLVkmGZoLjwgcEG9LmEgCq1hTUWTwBxowsnBeERyAgLYRq3sBBJRM90zGCDjLAsji
+iewNyTYgsMDFKkPzQAEqIJByzD1FQLMJxuJ82AImYOozVzuLsN/Qf5IgLtJNRUDCzUw3hcAIQkfd
+kgMjWL2l0VovGkAIADs=
+</data><mime>image/gif</mime><width>64</width><height>64</height><recognition><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recoIndex PUBLIC "SYSTEM" "http://xml.evernote.com/pub/recoIndex.dtd"><recoIndex docType="unknown" objType="image" objID="5451633bf68ef2a242818c984d40b9f7" engineVersion="5.0.40.8" recoType="service" lang="ja" objWidth="64" objHeight="64"/>
+]]></recognition><resource-attributes><source-url>http://cdn1.www.st-hatena.com/users/th/think-t/profile.gif</source-url><file-name>profile.gif</file-name></resource-attributes></resource><resource><data encoding="base64">
+R0lGODlhQABAAOYAALi9ur28tFllcr7HxVhwfb/AvMTHwKuxsba2tbW3r7Cup763rqinoa69xaKr
+rrqyqN/r7dnj5enx8tLHvsS7ssnAuOPg3MbEvcHCt/Lk4fb79+3w7ejs6PL28/Pw6uTl4vr+/NbR
+zMfXy8nQz9fRyMrMytLX0c/c4tLQzcTW3tHTy87U0NDMx8XJx9nU0dnKw9HSw8vQyNrf29PY2dnY
+1MvIwt/b2MDLziAtNxkrPREfKRYjLx0sPBkoNiUyPRUnNRsnMSk8TS85QTY8QyQ1RTlFT0FMVzI/
+SDNLWjlWaEZSUU1UWzlBSPDc2UhQVlVaXkFJT1xhZU9famNoa3R1dGx1eX+DgmxucHd7fJuem42R
+kJWVkXmGioKRmoiKiKGXkwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/
+C05FVFNDQVBFMi4wAwEAAAAsAAAAAEAAQAAAB/+AIIKDHFxJSFwbg4uCGhqDHy9NGZMelh0eG46b
+j4IOR0FIB50dmqUapRyMIB9VSUmJq4uPjhwkTR4ZHh0dnLycgy1SQUGxIBobvcq8mo6CEQRISV0d
+soyOHR+7Hp2z2M6CG1zEUjODMiIcvMofHMmPMwSvXd3Wg5v2jeCDDkFEooOyqeuF6oMMTYJuyEuS
+JZ9Da+CQVbthhAgRLtXuOUM1YoY6QQdeJXHwcFU9QcuOOdrw4UOHEUuI8FhirhOqTR0ADFjBQQMH
+L6GQkJT1jVejdaWSbeDwwYIFgqg6uJshwOKRA8c2LG3XQQIEADdGyPhAA4sPi1xU3TyWqqULGi3/
+W2biwNSGCxtOPyB0xouqRaHhmMqIIKHriBs3WqyIUcUiDyyq2K5kaoFGlipcvGwp0NLCBxsh7uI1
+xVJvBxlciOTIQYSaSqS8VnRcDECKxdbvbkbdQENLER5nhURJYPeu3g93tVoAzQLugSI5ePTYQSSL
+BKIxTMgwYSKBER4Wu7TT6q6XIAC/fag/W8XFZ89kUdjgYJd5cwZHfkifbuQGqsL3qGDCCi3EwAB0
+4Y2lVHmPOICEP+rxwIMRANDFgQUhsMBCCJ5dyAIKLrCgABQ9lNhDDlI0EAEEhIEAwQkQ0CADDS0Y
+kMUR4BWzAlxKLUVXFkUE4YOEQOxQhALLtWQD/wobPrVBCBewECICUSxhRA8//FBFWDA+c0MK2m2n
+ghe3BaGFgHjR1dkHWwwpIQ847LBEADS8ZcOdIYTQjn0fllDFFFXwsIOcCKwQQUYSnBBBdibQYIIV
+PEQXRBYh5knDnXjZYAUOPbxZ4hQsFIdpaEvWAKILKNDQ2xJUCLHDD0Ro0QJhEmAjwXYrmKBCoNJN
+akINAl5qAw0hkKCFD51K2IMPXmDqwnJ3LVdDlCEw2dwBTkwBhQ479HAFAjNIIC4vEHC3YwxTRNdD
+EQ64UEMJ8l3oQgg0FPCEiZ0acYBTFrhgZ4gsTFvDwAIDEMUUUeyggw76zsDiWBEsZsIMH6wgxf+J
+PxRxgLsaomDBBv36iwW+QmxhQ1OilmAFFgjUIGXAAQ+MRRRV+DCoD1rMMMMILcy2wo4fAOCEfj8Y
+gYALJsxLr1PzsoAFp3E+gUI2/r5FwwVURIFAhihYmyELWSyBhRHd/hBFASWU0MLaJXygKw0OQBep
+FC1U1vWdNCwXwha/SfjDEgbQJ2xlF2RBBQMbEvyhywg8UcUVWP5wxBYX1LBCCQAUYEIMAmYRRHQ5
+CFCC3ixgwAADCSTgm35D9oDDFBcMe6cFNXjhxBBQYFFAnSEQXEMBVzxh1qDeFtDcCAMUEAOjWqgm
+nejRLjCFEEIUwQSy+E4HhBV5X0rDFq4qDMT/FbFbwELlA3vBxBLh7wCFAl2rXYAKO5rAhQ/qVqGq
+CxdMMd2gPyjRfkzkPi8oIHYuuMKggFAkH1xhM73rWg2OhQMhYGkHzDKABgEAAANkpwWBig4PuNCZ
+LFhQWW8aIL58IIQnMCAEVWDgCoUwhQDkKWD4AcL1srQDrRmgAAhAAAY4VxvQjdAzFuBCpJRVohwk
+y0QMVJgOnLCFK3BKOtJhYRG2sDgWBCAKOIhCEV61AyY4wASY62CjEuAE1lhEC06pQRSeCIQANtGJ
+URwU8Y7whCOYSDotLAIVEiCwC1jxCgkjnhUGBEQBqeBGyZpUSxRQhCfa0UQ/0GOR9LgDIBjB/wkD
+BAINiwCFw7nMkDsQns0UtoQDGAAACVheDI71gyIdgQF1at6JmIjJ/y2Qk0DI3RN8EEUcHIGYOLgC
+ISswBR0wwQpku5msChDL5UFKj1ehQQ2qsJoU/hGTmeTkoIbgBQZMIU6dTOcOWkgFLThBB0DAwhQ4
+OYUCUNMAKmAMlrCksXpVRYV/VCEQfNnAK1DgAU8g3i/FJ4Q46UBsPuBWGbMQgAQYwAQtmEIAc1A0
+BNggJJ8rUbdO5MRQDnSgJvJBFL7whScUaZPqVNigdEBOI0i0B4O0aAwSsISN/o1OWSBCp0SavaIy
+EKWuc8IThoCDTcJUjwtbGA6woEA9OkEBAf/AQA0ONNIfPOECKtiUfopK1h44tZOitFktjyrOCrJw
+qaqUKM4woFUTknEHU1ABCyB3SSKV9X9ORepTxemDJ3ghCwq4ghCosC09DierXlDroK5gAhZo9K9F
+raV0gLnJhYlTj+SsQOGYUIRo/kAHR8hCAjCABR5kKYBVYIEKWvtaEzmxrMoa7GdnKlEdCMEKAQiA
+FSwI1fFh4ALcxBgPrMACEiggmvi67VCNGsU87lacOvABFhaAAS0cQaIKgwIM+nciLDHLZY9cQpwy
+GV0oalKkQHjCEzjF28/21gfAxcAWoABVHNQgAD114g9wBoMPoSABVnCCDy5JXRnuIJkP8AL/Oj3L
+yahCVbsLqICEe3sBSgYwS7f8WnMnoIAldJV4Rd0sDrzATE3ulsJRXQJWNwXewh3hVVkqQgJooIIM
+5QnAOH6vSLtFpDJOYQjcwsESXGpfqPp2CyWOKrcwcM0PEwELBiDWs0KwqU76coF5LFGRuCXDxzyA
+Cqt0MlTxqoAoSFkHVihCOD8sBEqRgAQhuNFN/cbJL++2B1iYQAWq6mTPLgy/VgCClIXAUQBiiQde
+gEENYMCAaHq5U/V1sUyhyoQvTOAFDEByhd/sTC8kLKo/ELAdB7yFaaGSs2oGs6YXFoUMV4ACiZQi
+qRf2hCxMQdE6yB4Pl0DIGuh5zcrSIw+f/5pHZ26hAtCmgq65tWsgUCEL2wr2PiMHhSz0mAXJDSe3
+hko8O4qT3AtjAuUocIU38/bN2nWzDpTg2hJlKQoMUEACKr2aV+lWj0MGOA/GvDAZLyCyu941FJyg
+sHO+NktEKEIRrOTa2j5Vyp/trJSt/QDpTTvhOoBCtp/wcJ9yq+ThvKu7pbhmJw/hCxoGNsh5/WvU
+lpwIgJrCMHHMw1Gz3OcU1jUVYj7zGHtBCDrYz4c1Nq0DnTzlsbYvqXU9hKzJPOEKE4IXnqCD2mZy
+CS0jgQk/DPWVY7fo1J45GYFQBSzU8eGpTEDljtUDImSy59btllAXiHYgNFXtMj0CFN7+2v8etuwC
+xyrba3OgUqpe4fFYqEIUnjAFbV393WbzQqvMjvVXXbCeF+huRAF495JVwNYDW8ADVr8AcwK7Wywn
+AosDwPV0H2wKV3hnVCtIePZiIQYDM6FExb3iW1OgAjUw/vGPj1AYR7UHVqjAA+StAxcy4AsK0ALS
+FwYFL1iB7DsYYQzOdyzwSnHFFEg/BRawfvarfwJeuPxpdXCF1td+iqf7wumaubCSBSByp7ViGABZ
+OGBhMwV96XdrotV+HZdhbYJx8zcF68d/zqYAp6MAW4Bk3HIFDwBACjNXwUVjnlUi3BJ96hclNZB+
+DUgBX7B9pEYFF1ABiXZoWXABCfAAqaO0QAtTBFlQJDy0YhcQggU4fNKBA1aAAQvAfhcQg0i4eukn
+gi+IARXwgDqAAw6wAR2WAAGgZ/AkbeKkBAxAVxv2WSv2XwuQVUmoegqgAB3nZu8WVVTAfgzABJ7F
+PRigb/ume/OWdlF1BWI4ehW2A1gwLcGleipogat3f+6GBaunAPf3BGu4hqkzT/3XW1E1HAugfdS2
+ZoNYAwN4g+q3AGw4fQm3Yg+whtK2MGCYOmuIABtWhYEAADs=
+</data><mime>image/gif</mime><width>64</width><height>64</height><recognition><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recoIndex PUBLIC "SYSTEM" "http://xml.evernote.com/pub/recoIndex.dtd"><recoIndex docType="unknown" objType="image" objID="6314fbe8417cf6e6ac9e64fc400329e4" engineVersion="7.0.24.1" recoType="service" lang="ja" objWidth="64" objHeight="64"><item x="0" y="0" w="63" h="63"><t w="44">融</t><t w="41">顧</t><t w="39">熱</t><t w="38">燃</t><t w="18">hl</t><t w="18">東ill</t><t w="17">計1</t><t w="17">羊著</t><t w="17">ヂ著</t><t w="16">東kl 1</t></item></recoIndex>
+]]></recognition><resource-attributes><source-url>http://cdn1.www.st-hatena.com/users/hs/hshinji/profile.gif</source-url><file-name>profile.gif</file-name></resource-attributes></resource></note><note><title>調査項目1HTTPD</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note><div>まずは、httpdの実体の場所を調べる。</div><ul><li>&nbsp;ps alxw | grep httpd</li></ul><div><br/></div><div>次に動作させてるIPやポート、バーチャルドメイン、その設定場所を調べる</div><ul><li>&nbsp; /usr/local/apache2/bin/httpd -S -DSSL</li><li><br/></li></ul><div>リライトやWebDAVが使えるかどうか。→ロードされてるモジュールを調べる</div><ul><li>/usr/local/apache2/bin/httpd -M</li></ul><div>アーキテクチャやMPMなど、コンパイル時の設定を調べる</div><ul><li>&nbsp; &nbsp; &nbsp;/usr/local/apache2/bin/httpd -V</li></ul></en-note>]]></content><created>20161014T060125Z</created><updated>20161014T061628Z</updated><note-attributes><author>obata_hiroshi</author><source-url>http://yuheikagaya.hatenablog.jp/entry/20090424/1240566049</source-url></note-attributes></note><note><title>覚えておくと便利なApacheの調査方法 - yuhei.kagaya</title><content><![CDATA[<?xml version="1.0" encoding="utf-8"?><!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note><div style="-evernote-webclip:true"><br/><div style="font-size: 16px"><div style="font-family:&quot;Helvetica Neue&quot;, Helvetica, YuGothic, &quot;Yu Gothic&quot;, 游ゴシック, 游ゴシック体, &quot;Hiragino Kaku Gothic Pro&quot;, Meiryo, &quot;MS PGothic&quot;;text-size-adjust:100%;color:rgb(34, 49, 63);background-color:rgb(255, 255, 255);"><div style="font-family:&quot;Helvetica Neue&quot;, Helvetica, YuGothic, &quot;Yu Gothic&quot;, 游ゴシック, 游ゴシック体, &quot;Hiragino Kaku Gothic Pro&quot;, Meiryo, &quot;MS PGothic&quot;;color:rgb(34, 49, 63);background-color:rgb(255, 255, 255);"><div><div>
+        <div style="display:block;margin:20px 0px;padding:20px 0px;">
+  <div>
+    <div>
+      <h1 style="font-size:1.7em;margin:0px;text-align:center;"><a href="http://yuheikagaya.hatenablog.jp/" style="background:transparent;text-decoration:none;color:rgb(34, 49, 63);">yuhei.kagaya</a></h1>
+      
+    </div>
+  </div>
+</div>
+
+        
+          <div>
+            <div style="display:block;">
+  <ul style="text-align:center;">
+    <li style="font-size:90%;display:inline-block;width:20%;"><a href="http://yuheikagaya.hatenablog.jp/archive" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">記事一覧</a></li>
+    <li style="font-size:90%;display:inline-block;width:20%;"><a href="http://yuheikagaya.hatenablog.jp/about" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">このブログについて</a></li>
+    <li style="font-size:90%;display:inline-block;width:20%;"><a href="http://yuheikagaya.hatenablog.jp/feed" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">RSSフィード</a></li>
+  </ul>
+</div>
+          </div>
+        
+        
+        
+
+
+
+<div style="display:block;">
+  <div>
+    <div>
+      <div style="width:100%;float:none;padding:20px 0px;background:rgb(255, 255, 255);border-color:rgb(0, 0, 0);border-width:3px;">
+        <div>
+          
+            
+            
+            
+            
+              
+                <div style="display:block;position:relative;background:rgb(255, 255, 255);padding:5px;margin-bottom:10px;">
+  <div style="background:rgb(255, 255, 255);padding:20px;">
+    <div style="display:block;padding:0px 0px 10px;margin-bottom:20px;border-bottom:1px solid rgb(221, 221, 221);position:relative;">
+      <div style="height:30px;text-align:center;font-weight:bold;font-size:120%;background:rgb(255, 255, 255);margin-bottom:5px;">
+        <a href="http://yuheikagaya.hatenablog.jp/entries/2009/04/24" rel="nofollow" style="background:transparent;color:rgb(34, 49, 63);text-decoration:none;font-size:90%;">
+          <span title="2009-04-24T09:40:49Z">
+            <span>2009</span><span>-</span><span>04</span><span>-</span><span>24</span>
+          </span>
+        </a>
+      </div>
+      <h1 style="font-size:140%;margin:0px;line-height:1.3;text-align:center;">
+        <a href="http://yuheikagaya.hatenablog.jp/entry/20090424/1240566049" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">覚えておくと便利なApacheの調査方法</a>
+      </h1>
+
+      
+      
+        <div style="margin-top:10px;font-size:80%;">
+          
+          <a href="http://yuheikagaya.hatenablog.jp/archive/category/linux" style="background:transparent;text-decoration:none;color:rgb(153, 153, 153);">linux</a>
+          
+          <a href="http://yuheikagaya.hatenablog.jp/archive/category/apache" style="background:transparent;text-decoration:none;color:rgb(153, 153, 153);">apache</a>
+          
+        </div>
+      
+      
+
+      
+    </div>
+        
+    <div style="padding:5px 8% 20px;font-size:100%;line-height:1.6;border-bottom:1px solid rgb(221, 221, 221);">
+
+      
+        <p style="margin:0px 0px 1em;">初めてログインしてみるサーバはどんな設定になってるの？</p><br/>
+<p style="margin:0px 0px 1em;">最近、サーバ移行の仕事があったので、そのとき便利だったコマンド。</p><p style="margin:0px 0px 1em;"/>
+
+<div>
+    <h4 style="clear:both;margin:1.3em 0px 0.8em;color:rgb(34, 49, 63);line-height:1.5;font-size:130%;">まずは、<a href="http://d.hatena.ne.jp/keyword/httpd" style="background:transparent;word-wrap:break-word;text-decoration:none;border-bottom:1px dotted rgb(221, 221, 221);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">httpd</a>の実体の場所を調べる。</h4>
+    <pre style="overflow-x:auto;overflow-y:hidden;overflow:auto;font-family:Monaco, Consolas, &quot;Courier New&quot;, Courier, monospace, sans-serif;font-size:0.8em;border:1px solid rgb(221, 221, 221);margin:0px 0px 10px;padding:20px;white-space:pre;background-color:rgb(255, 255, 255);">ps alxw <span style="color:rgb(216, 138, 23);">|</span> <span style="color:rgb(216, 138, 23);">grep</span> httpd
+<span style="color:rgb(255, 102, 102);">0</span>   <span style="color:rgb(255, 102, 102);">500</span>  <span style="color:rgb(255, 102, 102);">6777</span>  <span style="color:rgb(255, 102, 102);">5952</span>  <span style="color:rgb(255, 102, 102);">18</span>   <span style="color:rgb(255, 102, 102);">0</span>   <span style="color:rgb(255, 102, 102);">4992</span>   <span style="color:rgb(255, 102, 102);">752</span> -      R+   pts/<span style="color:rgb(255, 102, 102);">0</span>      <span style="color:rgb(255, 102, 102);">0</span>:<span style="color:rgb(255, 102, 102);">00</span> <span style="color:rgb(216, 138, 23);">grep</span> httpd
+<span style="color:rgb(255, 102, 102);">5</span>     <span style="color:rgb(255, 102, 102);">0</span> <span style="color:rgb(255, 102, 102);">15447</span>     <span style="color:rgb(255, 102, 102);">1</span>  <span style="color:rgb(255, 102, 102);">18</span>   <span style="color:rgb(255, 102, 102);">0</span> <span style="color:rgb(255, 102, 102);">156168</span> <span style="color:rgb(255, 102, 102);">11248</span> -      Ss   ?          <span style="color:rgb(255, 102, 102);">0</span>:<span style="color:rgb(255, 102, 102);">15</span> /usr/<span style="color:rgb(216, 138, 23);">local</span>/apache2/bin/httpd
+<span style="color:rgb(255, 102, 102);">5</span>   <span style="color:rgb(255, 102, 102);">501</span> <span style="color:rgb(255, 102, 102);">17106</span> <span style="color:rgb(255, 102, 102);">15447</span>  <span style="color:rgb(255, 102, 102);">16</span>   <span style="color:rgb(255, 102, 102);">0</span> <span style="color:rgb(255, 102, 102);">156168</span>  <span style="color:rgb(255, 102, 102);">8320</span> -      S    ?          <span style="color:rgb(255, 102, 102);">0</span>:<span style="color:rgb(255, 102, 102);">00</span> /usr/<span style="color:rgb(216, 138, 23);">local</span>/apache2/bin/httpd
+<span style="color:rgb(255, 102, 102);">5</span>   <span style="color:rgb(255, 102, 102);">501</span> <span style="color:rgb(255, 102, 102);">17107</span> <span style="color:rgb(255, 102, 102);">15447</span>  <span style="color:rgb(255, 102, 102);">16</span>   <span style="color:rgb(255, 102, 102);">0</span> <span style="color:rgb(255, 102, 102);">156168</span>  <span style="color:rgb(255, 102, 102);">8320</span> -      S    ?          <span style="color:rgb(255, 102, 102);">0</span>:<span style="color:rgb(255, 102, 102);">00</span> /usr/<span style="color:rgb(216, 138, 23);">local</span>/apache2/bin/httpd
+<span style="color:rgb(255, 102, 102);">5</span>   <span style="color:rgb(255, 102, 102);">501</span> <span style="color:rgb(255, 102, 102);">17108</span> <span style="color:rgb(255, 102, 102);">15447</span>  <span style="color:rgb(255, 102, 102);">16</span>   <span style="color:rgb(255, 102, 102);">0</span> <span style="color:rgb(255, 102, 102);">156168</span>  <span style="color:rgb(255, 102, 102);">8320</span> -      S    ?          <span style="color:rgb(255, 102, 102);">0</span>:<span style="color:rgb(255, 102, 102);">00</span> /usr/<span style="color:rgb(216, 138, 23);">local</span>/apache2/bin/httpd
+<span style="color:rgb(255, 102, 102);">5</span>   <span style="color:rgb(255, 102, 102);">501</span> <span style="color:rgb(255, 102, 102);">17109</span> <span style="color:rgb(255, 102, 102);">15447</span>  <span style="color:rgb(255, 102, 102);">19</span>   <span style="color:rgb(255, 102, 102);">0</span> <span style="color:rgb(255, 102, 102);">156168</span>  <span style="color:rgb(255, 102, 102);">8320</span> -      S    ?          <span style="color:rgb(255, 102, 102);">0</span>:<span style="color:rgb(255, 102, 102);">00</span> /usr/<span style="color:rgb(216, 138, 23);">local</span>/apache2/bin/httpd
+<span style="color:rgb(255, 102, 102);">5</span>   <span style="color:rgb(255, 102, 102);">501</span> <span style="color:rgb(255, 102, 102);">17124</span> <span style="color:rgb(255, 102, 102);">15447</span>  <span style="color:rgb(255, 102, 102);">19</span>   <span style="color:rgb(255, 102, 102);">0</span> <span style="color:rgb(255, 102, 102);">156168</span>  <span style="color:rgb(255, 102, 102);">8320</span> -      S    ?          <span style="color:rgb(255, 102, 102);">0</span>:<span style="color:rgb(255, 102, 102);">00</span> /usr/<span style="color:rgb(216, 138, 23);">local</span>/apache2/bin/httpd
+</pre><p style="margin:0px 0px 1em;">/usr/local/apache2/bin/<a href="http://d.hatena.ne.jp/keyword/httpd" style="background:transparent;word-wrap:break-word;text-decoration:none;border-bottom:1px dotted rgb(221, 221, 221);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">httpd</a><br/>
+これで、動いている場所ゲット。</p><p style="margin:0px 0px 1em;"/>
+
+</div>
+<div>
+    <h4 style="clear:both;margin:1.3em 0px 0.8em;color:rgb(34, 49, 63);line-height:1.5;font-size:130%;">次に動作させてるIPやポート、バーチャルドメイン、その設定場所を調べる</h4>
+    <p style="margin:0px 0px 1em;"><a href="http://d.hatena.ne.jp/keyword/httpd" style="background:transparent;word-wrap:break-word;text-decoration:none;border-bottom:1px dotted rgb(221, 221, 221);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">httpd</a>の場所は「/usr/local/apache2/bin/<a href="http://d.hatena.ne.jp/keyword/httpd" style="background:transparent;word-wrap:break-word;text-decoration:none;border-bottom:1px dotted rgb(221, 221, 221);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">httpd</a>」と分かったので、</p>
+<pre style="overflow-x:auto;overflow-y:hidden;overflow:auto;font-family:Monaco, Consolas, &quot;Courier New&quot;, Courier, monospace, sans-serif;font-size:0.8em;border:1px solid rgb(221, 221, 221);margin:0px 0px 10px;padding:20px;white-space:pre;background-color:rgb(255, 255, 255);">/usr/<span style="color:rgb(216, 138, 23);">local</span>/apache2/bin/httpd <span style="color:rgb(192, 0, 192);">-S</span> <span style="color:rgb(192, 0, 192);">-DSSL</span>
+VirtualHost configuration:
+xxx.xxx.xxx.xxx:<span style="color:rgb(255, 102, 102);">80</span>     is a NameVirtualHost
+         default server www.hogehoge.jp <span style="color:rgb(216, 138, 23);">(</span>/usr/<span style="color:rgb(216, 138, 23);">local</span>/apache2/conf/extra/httpd-vhosts.conf:<span style="color:rgb(255, 102, 102);">48</span><span style="color:rgb(216, 138, 23);">)</span>
+         port <span style="color:rgb(255, 102, 102);">80</span> namevhost www.hogehoge.jp <span style="color:rgb(216, 138, 23);">(</span>/usr/<span style="color:rgb(216, 138, 23);">local</span>/apache2/conf/extra/httpd-vhosts.conf:<span style="color:rgb(255, 102, 102);">48</span><span style="color:rgb(216, 138, 23);">)</span>
+         port <span style="color:rgb(255, 102, 102);">80</span> namevhost dev.hogehoge.jp <span style="color:rgb(216, 138, 23);">(</span>/usr/<span style="color:rgb(216, 138, 23);">local</span>/apache2/conf/extra/httpd-vhosts.conf:<span style="color:rgb(255, 102, 102);">121</span><span style="color:rgb(216, 138, 23);">)</span>
+xxx.xxx.xxx.xxx:<span style="color:rgb(255, 102, 102);">443</span>    www.hogehoge.jp <span style="color:rgb(216, 138, 23);">(</span>/usr/<span style="color:rgb(216, 138, 23);">local</span>/apache2/conf/ssl.conf:<span style="color:rgb(255, 102, 102);">185</span><span style="color:rgb(216, 138, 23);">)</span>
+Syntax OK
+</pre><p style="margin:0px 0px 1em;">これで、設定ファイルの場所、動いてるIP、ドメインをゲット。</p>
+
+<ul>
+<li>-DSSLをつけると、<a href="http://d.hatena.ne.jp/keyword/https" style="background:transparent;word-wrap:break-word;text-decoration:none;border-bottom:1px dotted rgb(221, 221, 221);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">https</a>の情報も分かる。</li>
+<li>xxx.xxx.xxx.xxxの部分はIP。*だったら、IPを指定して動かしてない。</li>
+<li>:80やら:443は<a href="http://d.hatena.ne.jp/keyword/Apache" style="background:transparent;word-wrap:break-word;text-decoration:none;border-bottom:1px dotted rgb(221, 221, 221);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">Apache</a>が動くポート番号。</li>
+<li>defaultはデフォルトで動くバーチャルホスト。</li>
+</ul><p style="margin:0px 0px 1em;"/><blockquote cite="http://httpd.apache.org/docs/2.2/ja/vhosts/name-based.html" title="名前ベースのバーチャルホスト - Apache HTTP サーバ" style="position:relative;border:1px solid rgb(221, 221, 221);margin:0px 0px 10px;padding:20px;"><br/>
+リクエストが来ると、サーバはまず最初に <span> にマッチする IP アドレスかどうかをチェックします。マッチすれば マッチした IP アドレスの <span> のそれぞれのセクションの中から ServerName か ServerAlias に要求されたホスト名があるか探します。 見つかればそのサーバ用の設定を使います。マッチするバーチャルホスト が見つからなければ、マッチした IP アドレスの リストの最初にあるバーチャルホスト が使われます。<br/>
+</span></span></blockquote><p style="margin:0px 0px 1em;"/><p style="margin:0px 0px 1em;"/>
+
+</div>
+<div>
+    <h4 style="clear:both;margin:1.3em 0px 0.8em;color:rgb(34, 49, 63);line-height:1.5;font-size:130%;">リライトや<a href="http://d.hatena.ne.jp/keyword/WebDAV" style="background:transparent;word-wrap:break-word;text-decoration:none;border-bottom:1px dotted rgb(221, 221, 221);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">WebDAV</a>が使えるかどうか。→ロードされてるモジュールを調べる</h4>
+    <pre style="overflow-x:auto;overflow-y:hidden;overflow:auto;font-family:Monaco, Consolas, &quot;Courier New&quot;, Courier, monospace, sans-serif;font-size:0.8em;border:1px solid rgb(221, 221, 221);margin:0px 0px 10px;padding:20px;white-space:pre;background-color:rgb(255, 255, 255);">/usr/<span style="color:rgb(216, 138, 23);">local</span>/apache2/bin/httpd <span style="color:rgb(192, 0, 192);">-M</span>
+Loaded Modules:
+ core_module <span style="color:rgb(216, 138, 23);">(</span>static<span style="color:rgb(216, 138, 23);">)</span>
+ mpm_prefork_module <span style="color:rgb(216, 138, 23);">(</span>static<span style="color:rgb(216, 138, 23);">)</span>
+ http_module <span style="color:rgb(216, 138, 23);">(</span>static<span style="color:rgb(216, 138, 23);">)</span>
+ so_module <span style="color:rgb(216, 138, 23);">(</span>static<span style="color:rgb(216, 138, 23);">)</span>
+ authn_file_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ authn_dbm_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ authn_anon_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ authn_dbd_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ authn_default_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ authz_host_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ authz_groupfile_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ authz_user_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ authz_dbm_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ authz_owner_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ authz_default_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ auth_basic_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ auth_digest_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ dbd_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ dumpio_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ ext_filter_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ include_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ filter_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ substitute_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ deflate_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ log_config_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ logio_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ env_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ expires_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ headers_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ ident_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ setenvif_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ ssl_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ mime_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ dav_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ status_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ autoindex_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ asis_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ info_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ cgi_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ dav_fs_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ vhost_alias_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ negotiation_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ dir_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ imagemap_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ actions_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ speling_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ userdir_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ alias_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ rewrite_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+ php5_module <span style="color:rgb(216, 138, 23);">(</span>shared<span style="color:rgb(216, 138, 23);">)</span>
+Syntax OK
+</pre>
+<ul>
+<li>(static)は静的にコンパイル時に組み込んだモジュールで、(shared)は<a href="http://d.hatena.ne.jp/keyword/Apache" style="background:transparent;word-wrap:break-word;text-decoration:none;border-bottom:1px dotted rgb(221, 221, 221);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">Apache</a>起動時に読み込む<a href="http://httpd.apache.org/docs/2.2/ja/mod/mod_so.html" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;word-wrap:break-word;">動的共有オブジェクト (DSO)</a>。so_moduleがあれば、DSOであとからいろいろモジュールを組み込める。</li>
+</ul>
+</div>
+<div>
+    <h4 style="clear:both;margin:1.3em 0px 0.8em;color:rgb(34, 49, 63);line-height:1.5;font-size:130%;"><a href="http://d.hatena.ne.jp/keyword/%A5%A2%A1%BC%A5%AD%A5%C6%A5%AF%A5%C1%A5%E3" style="background:transparent;word-wrap:break-word;text-decoration:none;border-bottom:1px dotted rgb(221, 221, 221);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">アーキテクチャ</a>やMPMなど、コンパイル時の設定を調べる</h4>
+    <pre style="overflow-x:auto;overflow-y:hidden;overflow:auto;font-family:Monaco, Consolas, &quot;Courier New&quot;, Courier, monospace, sans-serif;font-size:0.8em;border:1px solid rgb(221, 221, 221);margin:0px 0px 10px;padding:20px;white-space:pre;background-color:rgb(255, 255, 255);">/usr/<span style="color:rgb(216, 138, 23);">local</span>/apache2/bin/httpd <span style="color:rgb(192, 0, 192);">-V</span>
+Server version: Apache/<span style="color:rgb(255, 102, 102);">2</span>.<span style="color:rgb(255, 102, 102);">2</span>.<span style="color:rgb(255, 102, 102);">11</span> <span style="color:rgb(216, 138, 23);">(</span>Unix<span style="color:rgb(216, 138, 23);">)</span>
+Server built:   Jan <span style="color:rgb(255, 102, 102);">14</span> <span style="color:rgb(255, 102, 102);">2009</span> <span style="color:rgb(255, 102, 102);">16</span>:<span style="color:rgb(255, 102, 102);">42</span>:<span style="color:rgb(255, 102, 102);">26</span>
+Server<span style="color:rgb(216, 138, 23);">'</span><span style="color:rgb(255, 102, 102);">s Module Magic Number: 20051115:21</span>
+<span style="color:rgb(255, 102, 102);">Server loaded:  APR 1.3.3, APR-Util 1.3.4</span>
+<span style="color:rgb(255, 102, 102);">Compiled using: APR 1.3.3, APR-Util 1.3.4</span>
+<span style="color:rgb(255, 102, 102);">Architecture:   32-bit</span>
+<span style="color:rgb(255, 102, 102);">Server MPM:     Prefork</span>
+<span style="color:rgb(255, 102, 102);">  threaded:     no</span>
+<span style="color:rgb(255, 102, 102);">    forked:     yes (variable process count)</span>
+<span style="color:rgb(255, 102, 102);">Server compiled with....</span>
+<span style="color:rgb(255, 102, 102);"> -D APACHE_MPM_DIR="server/mpm/prefork"</span>
+<span style="color:rgb(255, 102, 102);"> -D APR_HAS_SENDFILE</span>
+<span style="color:rgb(255, 102, 102);"> -D APR_HAS_MMAP</span>
+<span style="color:rgb(255, 102, 102);"> -D APR_HAVE_IPV6 (IPv4-mapped addresses enabled)</span>
+<span style="color:rgb(255, 102, 102);"> -D APR_USE_SYSVSEM_SERIALIZE</span>
+<span style="color:rgb(255, 102, 102);"> -D APR_USE_PTHREAD_SERIALIZE</span>
+<span style="color:rgb(255, 102, 102);"> -D SINGLE_LISTEN_UNSERIALIZED_ACCEPT</span>
+<span style="color:rgb(255, 102, 102);"> -D APR_HAS_OTHER_CHILD</span>
+<span style="color:rgb(255, 102, 102);"> -D AP_HAVE_RELIABLE_PIPED_LOGS</span>
+<span style="color:rgb(255, 102, 102);"> -D DYNAMIC_MODULE_LIMIT=128</span>
+<span style="color:rgb(255, 102, 102);"> -D HTTPD_ROOT="/usr/local/apache2"</span>
+<span style="color:rgb(255, 102, 102);"> -D SUEXEC_BIN="/usr/local/apache2/bin/suexec"</span>
+<span style="color:rgb(255, 102, 102);"> -D DEFAULT_PIDLOG="logs/httpd.pid"</span>
+<span style="color:rgb(255, 102, 102);"> -D DEFAULT_SCOREBOARD="logs/apache_runtime_status"</span>
+<span style="color:rgb(255, 102, 102);"> -D DEFAULT_LOCKFILE="logs/accept.lock"</span>
+<span style="color:rgb(255, 102, 102);"> -D DEFAULT_ERRORLOG="logs/error_log"</span>
+<span style="color:rgb(255, 102, 102);"> -D AP_TYPES_CONFIG_FILE="conf/mime.types"</span>
+<span style="color:rgb(255, 102, 102);"> -D SERVER_CONFIG_FILE="conf/httpd.conf"</span>
+</pre><p style="margin:0px 0px 1em;"><br/>
+<a href="http://d.hatena.ne.jp/keyword/httpd" style="background:transparent;word-wrap:break-word;text-decoration:none;border-bottom:1px dotted rgb(221, 221, 221);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">httpd</a>.confとか見なくてもサクッと<a href="http://d.hatena.ne.jp/keyword/httpd" style="background:transparent;word-wrap:break-word;text-decoration:none;border-bottom:1px dotted rgb(221, 221, 221);font-size:100%;color:inherit;font-weight:inherit;font-style:inherit;pointer-events:auto;cursor:pointer;">httpd</a> -S -DSSLで見れるのはとても便利だなー。</p>
+
+</div>
+      
+    </div>
+    <div style="display:block;clear:both;margin-top:10px;">
+      <p style="font-size:80%;color:rgb(153, 153, 153);">
+        <span><span>yuhei_kagaya</span></span>
+        <span><a href="http://yuheikagaya.hatenablog.jp/entry/20090424/1240566049" style="background:transparent;text-decoration:none;color:rgb(153, 153, 153);"><span title="2009-04-24T09:40:49Z">7年前</span></a></span>
+      </p>
+
+      
+        <div style="margin-bottom:8px;min-height:24px;">
+        <span><en-media type="image/png" hash="24aa81195083f8f942ef4e7ff3e4c3b0" alt="Add Star" title="Add Star" width="32" height="20" style="border:none;margin:0px 3px;cursor:pointer;padding:0px;vertical-align:middle;"/><a href="http://blog.hatena.ne.jp/celt69cobra/" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;"><span style="display:inline-block;position:relative;width:20px;height:20px;margin:2px;vertical-align:middle;border-radius:2px;overflow:hidden;"><en-media type="image/gif" hash="5451633bf68ef2a242818c984d40b9f7" width="20" height="20" style="position:absolute;border:none;height:20px;top:0px;z-index:10;border-radius:3px;width:20px;left:0px;margin-top:0px;margin-right:0px;margin-left:0px;padding:0px;margin-bottom:0px;"/><en-media type="image/gif" hash="00db8ca1b2463489449b7c050a322fac" alt="celt69cobra (green)" title="" width="11" height="10" style="padding:0px;border:none;left:0px;margin-top:0px;margin-right:0px;margin-left:0px;position:absolute;margin-bottom:0px;bottom:0px;z-index:11;background:rgba(255, 255, 255, 0.8);border-top-right-radius:2px;border-bottom-left-radius:2px;"/></span></a><a href="http://blog.hatena.ne.jp/celt69cobra/" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;"><span style="display:inline-block;position:relative;width:20px;height:20px;margin:2px;vertical-align:middle;border-radius:2px;overflow:hidden;"><en-media type="image/gif" hash="5451633bf68ef2a242818c984d40b9f7" width="20" height="20" style="position:absolute;border:none;height:20px;top:0px;z-index:10;border-radius:3px;width:20px;left:0px;margin-top:0px;margin-right:0px;margin-left:0px;padding:0px;margin-bottom:0px;"/><en-media type="image/gif" hash="b9492ba28fe93e6ea0a3d705ca0cbfde" alt="celt69cobra" title="" width="11" height="10" style="padding:0px;border:none;left:0px;margin-top:0px;margin-right:0px;margin-left:0px;position:absolute;margin-bottom:0px;bottom:0px;z-index:11;background:rgba(255, 255, 255, 0.8);border-top-right-radius:2px;border-bottom-left-radius:2px;"/></span></a><a href="http://blog.hatena.ne.jp/snb04/" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;"><span style="display:inline-block;position:relative;width:20px;height:20px;margin:2px;vertical-align:middle;border-radius:2px;overflow:hidden;"><en-media type="image/gif" hash="5451633bf68ef2a242818c984d40b9f7" width="20" height="20" style="position:absolute;border:none;height:20px;top:0px;z-index:10;border-radius:3px;width:20px;left:0px;margin-top:0px;margin-right:0px;margin-left:0px;padding:0px;margin-bottom:0px;"/><en-media type="image/gif" hash="b9492ba28fe93e6ea0a3d705ca0cbfde" alt="snb04" title="" width="11" height="10" style="padding:0px;border:none;left:0px;margin-top:0px;margin-right:0px;margin-left:0px;position:absolute;margin-bottom:0px;bottom:0px;z-index:11;background:rgba(255, 255, 255, 0.8);border-top-right-radius:2px;border-bottom-left-radius:2px;"/></span></a><a href="http://blog.hatena.ne.jp/snb04/" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;"><span style="display:inline-block;position:relative;width:20px;height:20px;margin:2px;vertical-align:middle;border-radius:2px;overflow:hidden;"><en-media type="image/gif" hash="5451633bf68ef2a242818c984d40b9f7" width="20" height="20" style="position:absolute;border:none;height:20px;top:0px;z-index:10;border-radius:3px;width:20px;left:0px;margin-top:0px;margin-right:0px;margin-left:0px;padding:0px;margin-bottom:0px;"/><en-media type="image/gif" hash="b9492ba28fe93e6ea0a3d705ca0cbfde" alt="snb04" title="" width="11" height="10" style="padding:0px;border:none;left:0px;margin-top:0px;margin-right:0px;margin-left:0px;position:absolute;margin-bottom:0px;bottom:0px;z-index:11;background:rgba(255, 255, 255, 0.8);border-top-right-radius:2px;border-bottom-left-radius:2px;"/></span></a><a href="http://blog.hatena.ne.jp/d14a/" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;"><span style="display:inline-block;position:relative;width:20px;height:20px;margin:2px;vertical-align:middle;border-radius:2px;overflow:hidden;"><en-media type="image/gif" hash="b5fc83e02d8398c3d907df490d8ed7fd" width="20" height="20" style="position:absolute;border:none;height:20px;top:0px;z-index:10;border-radius:3px;width:20px;left:0px;margin-top:0px;margin-right:0px;margin-left:0px;padding:0px;margin-bottom:0px;"/><en-media type="image/gif" hash="b9492ba28fe93e6ea0a3d705ca0cbfde" alt="d14a" title="" width="11" height="10" style="padding:0px;border:none;left:0px;margin-top:0px;margin-right:0px;margin-left:0px;position:absolute;margin-bottom:0px;bottom:0px;z-index:11;background:rgba(255, 255, 255, 0.8);border-top-right-radius:2px;border-bottom-left-radius:2px;"/></span></a><a href="http://blog.hatena.ne.jp/asa_ca3/" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;"><span style="display:inline-block;position:relative;width:20px;height:20px;margin:2px;vertical-align:middle;border-radius:2px;overflow:hidden;"><en-media type="image/gif" hash="64cb56acf6835c3dad6db3398cdc892c" width="20" height="20" style="position:absolute;border:none;height:20px;top:0px;z-index:10;border-radius:3px;width:20px;left:0px;margin-top:0px;margin-right:0px;margin-left:0px;padding:0px;margin-bottom:0px;"/><en-media type="image/gif" hash="b9492ba28fe93e6ea0a3d705ca0cbfde" alt="asa_ca3" title="" width="11" height="10" style="padding:0px;border:none;left:0px;margin-top:0px;margin-right:0px;margin-left:0px;position:absolute;margin-bottom:0px;bottom:0px;z-index:11;background:rgba(255, 255, 255, 0.8);border-top-right-radius:2px;border-bottom-left-radius:2px;"/></span></a><a href="http://blog.hatena.ne.jp/miyatsu/" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;"><span style="display:inline-block;position:relative;width:20px;height:20px;margin:2px;vertical-align:middle;border-radius:2px;overflow:hidden;"><en-media type="image/gif" hash="425c342af334f204cf6a74f8b8b3bb7a" width="20" height="20" style="position:absolute;border:none;height:20px;top:0px;z-index:10;border-radius:3px;width:20px;left:0px;margin-top:0px;margin-right:0px;margin-left:0px;padding:0px;margin-bottom:0px;"/><en-media type="image/gif" hash="b9492ba28fe93e6ea0a3d705ca0cbfde" alt="miyatsu" title="" width="11" height="10" style="padding:0px;border:none;left:0px;margin-top:0px;margin-right:0px;margin-left:0px;position:absolute;margin-bottom:0px;bottom:0px;z-index:11;background:rgba(255, 255, 255, 0.8);border-top-right-radius:2px;border-bottom-left-radius:2px;"/></span></a></span></div>
+        
+      
+
+      
+<div style="margin:10px 0px;">
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+      
+        
+          
+            
+            <div style="font-size:16px;margin:0px 0px 1em;clear:both;font-family:Helvetica, Arial, &quot;ヒラギノ角ゴ Pro W3&quot;, &quot;Hiragino Kaku Gothic Pro&quot;, sans-serif;display:block;visibility:visible;width:auto;height:auto;opacity:1;position:static;">
+              
+              
+                
+
+                <div style="display:block;visibility:visible;width:auto;height:auto;opacity:1;position:static;"><div style="opacity:1;"/></div>
+                
+                  <a href="http://blog.hatena.ne.jp/guide/pro" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;border:none;visibility:hidden;display:inline-block;font-size:12px;padding-top:4px;opacity:1;">広告を非表示にする</a>
+                
+                
+              
+            </div>
+          
+        
+      
+
+      <div>
+
+        
+
+          
+
+          
+
+
+          
+        
+      </div>
+
+      <div>
+        
+        <ul style="list-style:none;margin:0px 0px 15px;padding:0px;font-size:95%;line-height:1.7;">
+          
+        </ul>
+        
+          <a style="background-color:rgb(255, 255, 255);cursor:pointer;color:rgb(69, 69, 69);font-weight:bold;display:inline-block;padding:10px 20px;margin-bottom:0px;line-height:18px;background:transparent;text-align:center;vertical-align:middle;border-radius:2px;background-clip:padding-box;font-size:14px;border:4px solid rgb(31, 58, 147);text-decoration:none;">コメントを書く</a>
+        
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
+
+                
+
+                
+                  
+                  
+                  <div style="margin:1em 0px;display:block;">
+                    
+                      
+                      <span style="float:left;text-align:left;width:45%;">
+                        <a href="http://yuheikagaya.hatenablog.jp/entry/20090609/1244520681" rel="prev" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+                          <span>« </span>
+                          Starting MySQL...Manager of pid-file qu…
+                        </a>
+                      </span>
+                    
+                    
+                      
+                      <span style="float:right;text-align:right;width:45%;">
+                        <a href="http://yuheikagaya.hatenablog.jp/entry/20090409/1239275906" rel="next" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+                          tar.gzの中身を確認
+                          <span> »</span>
+                        </a>
+                      </span>
+                    
+                  <span style="display:block;visibility:hidden;font-size:0px;height:0px;clear:both;">.</span></div>
+                
+
+              
+            
+            
+            
+
+            
+          
+        </div>
+      </div>
+
+      
+      <div style="display:block;">
+        <div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="display:block;word-wrap:break-word;width:100%;float:none;font-size:85%;line-height:1.5;">
+  
+  <div style="width:960px;overflow:hidden;">
+    
+      <div style="text-align:left;padding-right:20px;width:300px;float:left;margin-bottom:60px;">
+  <div style="font-weight:bold;margin-bottom:15px;font-size:120%;">
+    <a href="http://yuheikagaya.hatenablog.jp/archive" style="background:transparent;color:rgb(69, 69, 69);text-decoration:none;">
+      最新記事
+    </a>
+  </div>
+  <div>
+    <ul style="list-style:none;margin:0px;padding:0px;">
+  
+  
+    
+    <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;">
+      <div>
+        
+        
+        <a href="http://yuheikagaya.hatenablog.jp/entry/2016/04/21/141235" style="background:transparent;color:rgb(20, 135, 189);font-size:110%;text-decoration:none;">Ansibleのselectattrとmapとlist        </a>
+        
+        
+
+              </div>
+    </li>
+  
+    
+    <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;">
+      <div>
+        
+        
+        <a href="http://yuheikagaya.hatenablog.jp/entry/2016/03/20/171907" style="background:transparent;color:rgb(20, 135, 189);font-size:110%;text-decoration:none;">Vimプラグインの管理にdein.vimを使う        </a>
+        
+        
+
+              </div>
+    </li>
+  
+    
+    <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;">
+      <div>
+        
+        
+        <a href="http://yuheikagaya.hatenablog.jp/entry/2015/08/23/204233" style="background:transparent;color:rgb(20, 135, 189);font-size:110%;text-decoration:none;">はじめての絵本        </a>
+        
+        
+
+              </div>
+    </li>
+  
+    
+    <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;">
+      <div>
+        
+        
+        <a href="http://yuheikagaya.hatenablog.jp/entry/2015/07/26/171624" style="background:transparent;color:rgb(20, 135, 189);font-size:110%;text-decoration:none;">ゲームボーイの思い出        </a>
+        
+        
+
+              </div>
+    </li>
+  
+    
+    <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;">
+      <div>
+        
+        
+        <a href="http://yuheikagaya.hatenablog.jp/entry/2015/07/17/191047" style="background:transparent;color:rgb(20, 135, 189);font-size:110%;text-decoration:none;">最近学んだRuby        </a>
+        
+        
+
+              </div>
+    </li>
+  
+    
+    <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;">
+      <div>
+        
+        
+        <a href="http://yuheikagaya.hatenablog.jp/entry/2015/07/16/133718" style="background:transparent;color:rgb(20, 135, 189);font-size:110%;text-decoration:none;">7月のVimmerランチ        </a>
+        
+        
+
+              </div>
+    </li>
+  
+    
+    <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;">
+      <div>
+        
+        
+        <a href="http://yuheikagaya.hatenablog.jp/entry/2015/07/01/173208" style="background:transparent;color:rgb(20, 135, 189);font-size:110%;text-decoration:none;">Rubyのブロックについての理解        </a>
+        
+        
+
+              </div>
+    </li>
+  
+    
+    <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;">
+      <div>
+        
+        
+        <a href="http://yuheikagaya.hatenablog.jp/entry/2015/06/23/000000" style="background:transparent;color:rgb(20, 135, 189);font-size:110%;text-decoration:none;">gitで最近コミットしたブランチを探す        </a>
+        
+        
+
+              </div>
+    </li>
+  
+    
+    <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;">
+      <div>
+        
+        
+        <a href="http://yuheikagaya.hatenablog.jp/entry/2015/06/22/000000" style="background:transparent;color:rgb(20, 135, 189);font-size:110%;text-decoration:none;">内向型人間のための人生戦略大全        </a>
+        
+        
+
+              </div>
+    </li>
+  
+    
+    <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;">
+      <div>
+        
+        
+        <a href="http://yuheikagaya.hatenablog.jp/entry/2015/06/18/000000" style="background:transparent;color:rgb(20, 135, 189);font-size:110%;text-decoration:none;">6月のVimmerランチ        </a>
+        
+        
+
+              </div>
+    </li>
+  
+</ul>
+
+  </div>
+</div>
+
+      
+      
+    
+      
+
+<div style="text-align:left;padding-right:20px;width:300px;float:left;margin-bottom:60px;">
+  <div style="font-weight:bold;margin-bottom:15px;font-size:120%;">
+    <a href="http://yuheikagaya.hatenablog.jp/archive" style="background:transparent;color:rgb(69, 69, 69);text-decoration:none;">月別</a>
+  </div>
+  <div>
+  
+
+  
+    
+    
+      <ul style="list-style:none;margin:0px;padding:0px;padding-left:0px;margin-left:0px;">
+        
+          <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://yuheikagaya.hatenablog.jp/archive/2016" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+              2016 (2)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://yuheikagaya.hatenablog.jp/archive/2015" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+              2015 (28)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://yuheikagaya.hatenablog.jp/archive/2014" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+              2014 (26)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://yuheikagaya.hatenablog.jp/archive/2013" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+              2013 (16)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://yuheikagaya.hatenablog.jp/archive/2012" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+              2012 (7)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://yuheikagaya.hatenablog.jp/archive/2011" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+              2011 (12)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://yuheikagaya.hatenablog.jp/archive/2010" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+              2010 (1)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              <span style="cursor:pointer;">▼</span>
+              
+            </div>
+            <a href="http://yuheikagaya.hatenablog.jp/archive/2009" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+              2009 (17)
+            </a>
+            <ul style="padding-left:0px;margin-left:0px;background:none;">
+              
+                <li style="border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;margin:0px 0px 0px 2.5em;padding:0px;border:none;background:none;list-style-type:none;"><span style="list-style-type:none;line-height:1.5;"/>
+                  <a href="http://yuheikagaya.hatenablog.jp/archive/2009/9" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+                    2009 / 9 (1)
+                  </a>
+                <span style="list-style-type:none;line-height:1.5;"/></li>
+              
+                <li style="border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;margin:0px 0px 0px 2.5em;padding:0px;border:none;background:none;list-style-type:none;"><span style="list-style-type:none;line-height:1.5;"/>
+                  <a href="http://yuheikagaya.hatenablog.jp/archive/2009/8" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+                    2009 / 8 (1)
+                  </a>
+                <span style="list-style-type:none;line-height:1.5;"/></li>
+              
+                <li style="border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;margin:0px 0px 0px 2.5em;padding:0px;border:none;background:none;list-style-type:none;"><span style="list-style-type:none;line-height:1.5;"/>
+                  <a href="http://yuheikagaya.hatenablog.jp/archive/2009/6" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+                    2009 / 6 (2)
+                  </a>
+                <span style="list-style-type:none;line-height:1.5;"/></li>
+              
+                <li style="border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;margin:0px 0px 0px 2.5em;padding:0px;border:none;background:none;list-style-type:none;"><span style="list-style-type:none;line-height:1.5;"/>
+                  <a href="http://yuheikagaya.hatenablog.jp/archive/2009/4" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+                    2009 / 4 (2)
+                  </a>
+                <span style="list-style-type:none;line-height:1.5;"/></li>
+              
+                <li style="border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;margin:0px 0px 0px 2.5em;padding:0px;border:none;background:none;list-style-type:none;"><span style="list-style-type:none;line-height:1.5;"/>
+                  <a href="http://yuheikagaya.hatenablog.jp/archive/2009/3" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+                    2009 / 3 (2)
+                  </a>
+                <span style="list-style-type:none;line-height:1.5;"/></li>
+              
+                <li style="border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;margin:0px 0px 0px 2.5em;padding:0px;border:none;background:none;list-style-type:none;"><span style="list-style-type:none;line-height:1.5;"/>
+                  <a href="http://yuheikagaya.hatenablog.jp/archive/2009/2" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+                    2009 / 2 (2)
+                  </a>
+                <span style="list-style-type:none;line-height:1.5;"/></li>
+              
+                <li style="border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;margin:0px 0px 0px 2.5em;padding:0px;border:none;background:none;list-style-type:none;"><span style="list-style-type:none;line-height:1.5;"/>
+                  <a href="http://yuheikagaya.hatenablog.jp/archive/2009/1" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+                    2009 / 1 (7)
+                  </a>
+                <span style="list-style-type:none;line-height:1.5;"/></li>
+              
+            </ul>
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://yuheikagaya.hatenablog.jp/archive/2008" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+              2008 (26)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+          <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);list-style-type:none;margin:0px;padding-left:0px;line-height:1.5;background:none;"><span style="list-style-type:none;line-height:1.5;"/>
+            <div style="display:inline;opacity:0.6;">
+              
+              <span style="cursor:pointer;display:inline;">▶</span>
+            </div>
+            <a href="http://yuheikagaya.hatenablog.jp/archive/2007" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">
+              2007 (9)
+            </a>
+            
+          <span style="list-style-type:none;line-height:1.5;"/></li>
+        
+      </ul>
+    
+  
+
+
+</div>
+</div>
+
+      
+      
+    
+      
+
+<div style="text-align:left;padding-right:20px;width:300px;float:left;margin-bottom:60px;">
+  <div style="font-weight:bold;margin-bottom:15px;font-size:120%;">
+    著者について
+  </div>
+  <div>
+    
+
+    
+    <span style="display:block;font-weight:bold;font-size:110%;margin-bottom:5px;">
+      <a href="http://yuheikagaya.hatenablog.jp/about" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;"><span>id:yuhei_kagaya</span></a>
+      
+  
+    
+    
+  
+
+
+    </span>
+    
+
+    
+
+    
+
+    
+      <div style="clear:both;height:20px;margin:0.7em 0px;display:block;font-size:10px;">
+
+  <a href="http://yuheikagaya.hatenablog.jp/entry/20090424/1240566049#" style="float:left;display:inline-block;padding-right:5px;min-width:40px;border-radius:3px;transition:opacity 0.3s ease, border, color, background;font-weight:700;text-decoration:none;overflow:hidden;padding-left:20px;white-space:nowrap;text-overflow:ellipsis;background:url(&amp;quot;https://cdn.blog.st-hatena.com/images/theme/hatena-follow-button.png?version=4761c38ee37ae756cb190faa168483d1903ed164&amp;quot;) 0px 0px no-repeat, -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255, 255, 255)), to(rgb(221, 221, 221)));height:18px;border:1px solid rgb(187, 187, 187);line-height:18px;color:rgb(85, 85, 85);letter-spacing:0px;">
+    
+    <span style="display:inline;">
+      <span>読者になる</span>
+      
+    </span>
+  </a>
+  <div style="display:block;position:relative;float:left;margin:0px 0px 0px 5px;">
+    <i style="border-width:4px 4px 4px 0px;position:absolute;zoom:1;line-height:0;width:0px;height:0px;left:0px;top:50%;margin:-4px 0px 0px -4px;z-index:10;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-top-color:transparent;border-bottom-color:transparent;border-image:initial;border-right-color:rgb(187, 187, 187);border-left-style:initial;border-left-color:initial;"/>
+    <u style="border-top-style:solid;position:absolute;zoom:1;line-height:0;width:0px;height:0px;left:0px;top:50%;margin:-4px 0px 0px -4px;border-width:4px 4px 4px 0px;z-index:10;border-right-style:solid;border-bottom-style:solid;border-top-color:transparent;border-bottom-color:transparent;border-image:initial;border-right-color:rgb(255, 255, 255);border-left-style:initial;border-left-color:initial;margin-left:-3px;"/>
+    <span style="font-size:12px;float:left;height:18px;line-height:18px;padding:0px 5px;display:block;min-width:8px;border:1px solid rgb(187, 187, 187);background:rgb(255, 255, 255);border-radius:3px;margin-left:-1px;position:relative;z-index:9;font-family:Helvetica, Ariel, sans-serif;color:rgb(69, 69, 69);">34</span>
+  </div>
+<span style="font-size:0px;display:block;visibility:hidden;height:0px;clear:both;">.</span></div>
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+      
+      
+    
+      <div style="text-align:left;padding-right:20px;width:300px;float:left;margin-bottom:60px;">
+  <div style="font-weight:bold;margin-bottom:15px;font-size:120%;">
+    リンク
+  </div>
+  <div>
+    <ul style="list-style:none;margin:0px;padding:0px;">
+      
+        <li style="padding:8px 0px;border-bottom:1px solid rgb(221, 221, 221);line-height:1.5;">
+          <a href="https://github.com/violetyk" style="background:transparent;color:rgb(20, 135, 189);text-decoration:none;">GitHub</a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+      
+      
+    
+    
+  </div>
+</div>
+
+  </div>
+<span style="display:block;visibility:hidden;font-size:0px;height:0px;clear:both;">.</span></div>
+
+
+
+
+        
+        
+          
+        
+        
+      </div></div></div></div></div><br/></div></en-note>]]></content><created>20161014T060908Z</created><note-attributes><source>web.clip</source><source-url>http://yuheikagaya.hatenablog.jp/entry/20090424/1240566049</source-url></note-attributes><resource><data encoding="base64">
+R0lGODlhCwAKAJECAD3OJE3nM////wAAACH5BAEAAAIALAAAAAALAAoAAAIZlA2nl8vQXJgKwhls
+A3hGhH0gJ15C9pVGAQA7
+</data><mime>image/gif</mime><width>11</width><height>10</height><resource-attributes><source-url>http://s.hatena.ne.jp/images/star-green.gif</source-url><file-name>star-green.gif</file-name></resource-attributes></resource><resource><data encoding="base64">
+iVBORw0KGgoAAAANSUhEUgAAACAAAAAUCAMAAAGsSP/rAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMjgwMTE3NDA3MjA2ODExODhDNjg1RDM2M0M4
+QzgxMiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGQjAwMEUwNUYzMUUxMUUxOUJERjg2MjlD
+MDY0NkJCNiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGQjAwMEUwNEYzMUUxMUUxOUJERjg2
+MjlDMDY0NkJCNiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9z
+aCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjk4QjExRTRD
+MTIyMDY4MTE4OEM2ODVEMzYzQzhDODEyIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAyODAx
+MTc0MDcyMDY4MTE4OEM2ODVEMzYzQzhDODEyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpS
+REY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+ZDO3MQAAAI1QTFRF9fX1zMzMzMzM
+zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM1tbW19fX4ZkQ4pQE5JcH5KYx5qxB
+57NS6JwP6ZQA6sBy68eD6+vr7KAW7Ozs7aEX7c2T7tSj76Mb79u07+/v8PDw8eHE8fHx8ujU8/Pz
+9O7l9aol9fX1+a8t/7Y4////bAs01QAAAA50Uk5TAFpgb3J1fsPJ2Nve5/ArRi4MAAAA6ElEQVQo
+z32RgVaCQBBFpzQrkwkEEY1clVSWB/z/5zW7qxtb0j2Hw8zjMjsHiJiZOFUgBmA6JpRSwbZwSJHs
+bPHClgd5rkxQE5I2dQWya+KoaYGALzdvqeENE+Rdo1EIt+AIbL0xq4IZMT3ykGeic3jKmztf+SCy
+gV4GgUrLNk2Awhu66XLArnF9ZZeJMDC2djX0P0MHRBQHfTWl2fsnRvmIn/znlcP1X6OOBsJqNS5c
+BFWWytxx2ziYcMoOnXDITrgvyF9o2rbJTdX3fSHXL2G/3gCb9RGjE+4jwuL8n1DNiaZzHuV1Qt/c
+bVptIor4RQAAAABJRU5ErkJggg==
+</data><mime>image/png</mime><width>32</width><height>20</height><resource-attributes><source-url>https://cdn.blog.st-hatena.com/images/theme/star/hatena-star-add-button.png?version=f8e3dba1253cbde1c3eab8dc5a6497b3</source-url><file-name>hatena-star-add-button.png</file-name></resource-attributes></resource><resource><data encoding="base64">
+R0lGODlhQABAAMQAAC0tLYaGhvf399zc3Ojo6O3t7fDw8Pv7+6ampv7+/vX19cfHxx4eHjMzM/Ly
+8uvr6+Pj4xgYGA8PD9PT07a2tgAAAAgICBISEiYmJlVVVTo6OkhISGFhYW5ubpSUlHp6eiH/C05F
+VFNDQVBFMi4wAwEAAAAsAAAAAEAAQAAABf9gJY6k1GRZRK5shVGHoBzD1t44bnHU4DgUQK5yAWQC
+E4VMMVsIh9Bbx5BIHA4JhGVkkTBOHU+PmlgyBQnPNsoWMRYJJvPw8AQCHgRlATFgqzFyggcFGW1t
+DRBxggJ/VY8xZoKTCRQqh1AAA4uMAp6ToKFKAh2YUBgTnKKrrJWXpjcRcKy0q3Q2sDcWCKq1vkoH
+pbk3AWW/x2gfwzcZDge/jYGsnhzLLW+9oI1VBgMFkqAJCxjWLR/Sk9sJBQseGRwEz6IJEIblLBG8
+gZ5/DwsBGxiIOAdOzgEC9u6xwICgACR/AF9VkJXtzIEACnFI2IDHw4cNEkdk8DNvArmMwyz/eKg4
+ShjKXJpYihPYwsIFCWtetuiArpNLEhYy6KGAwGNAnSMuUJC5gOaKDA8eASowIUADpBseyEtHqoVS
+VfyqTOCQ855KY+FMttCgSBSaAtUyAkgVqpGyFhw+rUqgViHPggoSDHjC4u80AXHLUaybpiwJtmjn
+eVDYbOsgCBp0cBhwZS8FCcMkXGAAYCljNUMAfOA8j8KFNhYwbOCAZ8+CCQYAH8QFZSXgSq+HXNDw
+AcGEB2ikRp500B0Gxyw+LJdTCTQODB0oxAOk1xcaAxMQdNAQnEWx359vYPgwAUvPYxYBQaDwQYP1
+EedDZYEugcMCLIDBl4584p1UwUqnsQAA/wIOlBGggIyVMYEH5PHCGEYkbACHPJ1BiEwV87VX1wF3
+idDBJjIcpB1LHroFoFsKJFbBDEsI1kAHDnHFyhUPCngLCZKIo0IHUakzHSMEaFVFj74IRtiMggAn
+AjwJdNOOB/GAckA9G3xAAQTuMelZeVBSp4VIH2QAwGsdKDHgZCJIQNyKR9aSxQqMpIEDNmk9KcIF
+G3jQXp22DPDBKwYJJuMKHXR3Rlc4qLYAGmIaJAAFuMxAD4XQuTELJZac0sGkhGqTAAEBMCAABAhs
+0OkIjYKzWxsMdJCKZbRYQYEBAZApRU9ooHYIAAEMUOkZcQzgwQb3XfMpE+IYiIlvPibwAP8FHIRE
+wkgcFpILnxBuI4CwLOziYGO5xNoitBM4JScAEYCmAWfR5rLYuoFhJoIFHxAwwAIU2AEHBLyZom5d
+lR7ggCEWTKFcZz9hggqLL9JiVwUcRMVcGs0echZgnlAAA66murPJgBQ4ZQoHJOk3QAMMeNCIxQOw
+lqcTw2hA14VxBkCFxbiisUBmMMERYL37dkAAi4wNPcwLhBKS0AgcKJJwJUTDAnWAwXaaQSpMo6EA
+AtJi0sBSXFei8goNePAfOJ6I1UHHh3xNKBoTXDUEA0oqJ0BVfh7CQABLPyhYwTl0uccEAHvAQdke
+Z/AfyXKgMcDUUVgQAQMM0O3xBggUuQoj3ogjdUMDCCxNeaILlG46Cw3c2mMZCAT+OgvUTgPBB76y
+EQIAOw==
+</data><mime>image/gif</mime><width>64</width><height>64</height><recognition><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recoIndex PUBLIC "SYSTEM" "http://xml.evernote.com/pub/recoIndex.dtd"><recoIndex docType="unknown" objType="image" objID="425c342af334f204cf6a74f8b8b3bb7a" engineVersion="7.0.24.1" recoType="service" lang="ja" objWidth="64" objHeight="64"><item x="0" y="0" w="67" h="63"><t w="37">愚</t><t w="32">憲</t><t w="31">畔七</t><t w="30">鱈七</t><t w="30">畔刺</t><t w="30">畔椀</t><t w="30">畔槻</t><t w="29">鱈刺</t><t w="29">鱈椀</t><t w="29">鱈槻</t></item></recoIndex>
+]]></recognition><resource-attributes><source-url>http://cdn1.www.st-hatena.com/users/mi/miyatsu/profile.gif</source-url><file-name>profile.gif</file-name></resource-attributes></resource><resource><data encoding="base64">
+R0lGODlhQABAAPQAAM7f6snb6Nbk7tPi7NDg67bL29Tj7avD1cLV45u3y9jm76S90Mja5pOwx7vQ
+3524zcXY5Zezyb3R4I+txM3e6szd6crc6cvc6dHh7Mvd6crc6M/f69Lh7Mzd6s3e6c7e6SH5BAAA
+AAAAIf8LWE1QIERhdGFYTVD/P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJl
+U3pOVGN6a2M5ZCI/PiA8eDp4bXBtdGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9
+IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAg
+ICAgICAgIj48cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudy5vcmcvMTk5OS8wMi8yMi1y
+ZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmY6YWJvdXQ9IiIg/3htbG5zOnhtcE1N
+PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25z
+LmFkb2JlLmNvbS94YXAvMS4wL3NUcGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9u
+cy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4
+RTFBRkFEMzNGNDJFMTExQjA5OThEMTQ3QjIxQThCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlk
+OjJGMTc1NUU5NDU4MjExRf8xQUI4RENERTRGNzNEMEY2IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAu
+aWlkOjJGMTc1NUU4NDU4MjExRTFBQjhERUNERTRGNzNEMDYiIHhtcDpDcmVhdG9yVG9vbD0iQWRv
+YmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHNSZWY6aW5zdGFu
+Y2VJRD0ieG1wLmlpZDo5QjMzNTkzOTgxNDVFMTExQTBEREU3RkI3MjMyNzdDQSIgc3RSZWY6ZG9j
+dW1lbnRJRD0ieG1wLmRpZDo4RTFBRkFEMzNGNDJFMTExQjA5OThEMTQ3QjL/MUEyOEIvPiA8L3Jk
+ZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8eDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+
+Af/+/fz7+vn49/b19PPy8fDu7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjH
+xsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+O
+jYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZV
+VFNSUVBPTk1MS0pJSEdGRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4d
+HBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAALAAAAABAAEAAAAX+YCCOZGmeaKquLKtpVizH
+b2vf5htffOb/PB4NR0zBepmKcslcZoQWTXG6Sy4p2KwWy3xeolPb0drRfj6AtPqs7Si9lrBqrMye
+1Zu8Pq8GfLJvX1JyJRoXVnZpGwULERMPBwwEBQkTlgkFaX9cFU9xhCIWhxVlFGh5DA+Wq5aOrK0O
+G2mAnqCidaYAeQQODa+/wAsXsptKgmG3FViKBJPAz78JGbIAnMdEycu7ztDdqwkVBMQUxp832afN
+BBLe7ZYLzePlN4Z16QQYHr7u7Q7xfuQqfGlhKIm2ZhgwHODnLgKGf3+MDVJhwSAFXQgxDNjH0BuC
+h+KqkctgDkW9Mhj+8Wlk17HdAQ4gZXEZmKKisnQJBwxY2NJbggEJ40UUOLHErYP4OOis1NObzpgi
+BZYkYdPUBoRKBxho2m7DAJj/Al4oKqLewZxaCXD1qBOsPJpUDX64mlSrAQRruyEw8DRsp6n1lGFE
+a+BuXmh72z6USW4sCbMXsdoVgPcwMAaF+4qLCDdA1bkIdRYWAMEyMAEC+AL1SzKu4KsYshpAXdr0
+K9Sq3VZz4zgA5MFKR6O2zWoBbtUgARIte+EmgNCThxO3dAB1as0bOH86ChqfaOsKVE0vYB056+3N
+rUKfjVoBT+IByisOOXK7QeDf27O03UBBeb661RfKfbDJBt4G0x3+4N9xXy1WzV8DvlaXVuAp4Ipp
+CCyYGoAOCugZgROyJ4ACChTAnwEaZhYghJ6l151GFLangAa2KZjifDKxyB1dMIpIooWmMUCifKvR
+x6JZaKzno3uW9afhdUVm19gnvxUY3YgKVJaXjf9pplxvH0oYW35YbnVYhjc2SB9vE33Go2hLLnAY
+itZBCZWHzDknmXDtmbjWAkMyGKV2jzUnZo8+BrDWAQU8mVuHjZHl5p4ijujIhQ1NoMEGdWYW5YOt
+FZLeRbAhWqcDEkjAUTuMOPpoSISaMGmIlZLIiDsQSODqfEYuJ+uoKY15pQAfFLAqNAfE1yV2UXVm
+lFyDwRhdbR2uVbchcjENBWYOzaHEo7SjvcdQAxvqpCZ9U65QFakZmWsAAcfyU4Bq5zLG4hyjIJWQ
+Uhsw1ZQDT0GlLVkmGZoLjwgcEG9LmEgCq1hTUWTwBxowsnBeERyAgLYRq3sBBJRM90zGCDjLAsji
+iewNyTYgsMDFKkPzQAEqIJByzD1FQLMJxuJ82AImYOozVzuLsN/Qf5IgLtJNRUDCzUw3hcAIQkfd
+kgMjWL2l0VovGkAIADs=
+</data><mime>image/gif</mime><width>64</width><height>64</height><recognition><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recoIndex PUBLIC "SYSTEM" "http://xml.evernote.com/pub/recoIndex.dtd"><recoIndex docType="unknown" objType="image" objID="5451633bf68ef2a242818c984d40b9f7" engineVersion="5.0.40.8" recoType="service" lang="ja" objWidth="64" objHeight="64"/>
+]]></recognition><resource-attributes><source-url>http://cdn1.www.st-hatena.com/users/sn/snb04/profile.gif</source-url><file-name>profile.gif</file-name></resource-attributes></resource><resource><data encoding="base64">
+R0lGODlhQABAALMAAKjE8EqM72mc7b283XyO1Cp98ixx5MnW7ebm5gAAAIqv7AAAAAAAAAAAAAAA
+AAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQBAAALACwAAAAAQABAAAAE/3DJSau9OOvNu/9gKI5k
+aYJKEAgKJgRFLMsrcHLAHAftAryFlQJwKBoBqRhrAhSacjpZc4ioWq/WAwBWAOoCJW50p8Caz4jf
+WElaKw/oOPYgWLfXgOpPIMjLEVoAfggKYz0hYwF5dDqDZwNiPHBQMwIjUQGTiXJiNHmUMYcgnZmA
+XCs0cZQqM5+tI4U7cAh1O5GqNKRwsWAktX4HnTMBuG4CpgU2JV1WoDplWbNVwsNVhcojddLONNKx
+x3puxIBdy+PhY44vK1e1mFZ1y9BWsVLSf/Wt9AUk12ZICqg0mzcwiwI+LBzlwAZC258rKpDAUMDI
+ES5RH1Q8vFIvIBcB9/8ujtC4MQuRKoFKpimA0QNJlTDP5GjZwWHMm/v6JcPJE8YycDxh5rDka2dQ
+lfFMMDu6ceiJOkCZojkQ48aCiVLjTLR6lWVWM1C5SoAB8iugsGIl1FGUdUu5tBN4WYR5IBbNtLUk
+0U3SCy6GSENCXtHi5a5fCWtWIOTDatjhDGIEHVTR2BaLekQfU6AUdbARLGI0V4gcs6PoCd1irjq9
+oN45laAYHnbXeSNVGbL9uiOoMvLp3ThDs+bCu+RH1hJS1N5IFnnc170Nay4g+E8O56OL/0mKXQKB
+UiWddp9gYPmZYH3HEzBgVI5bHuOF9RFMWFh60YlVLF5Hrepp9mNIgAQnH/ygZodm7uiQmQtrLAhX
+gmR0kMQXovG3BAr83Tfehhx26OGHF0QAADs=
+</data><mime>image/gif</mime><width>64</width><height>64</height><resource-attributes><source-url>http://cdn1.www.st-hatena.com/users/as/asa_ca3/profile.gif</source-url><file-name>profile.gif</file-name></resource-attributes></resource><resource><data encoding="base64">
+R0lGODlhQABAAMQAAO3x6rTmgaTZcZzVYgAAAOjm57TVnMjuk7rikqzRj+n21fj+89D1pdro0d31
+vdHexcDgqgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05F
+VFNDQVBFMi4wAwEAAAAh+QQBAAARACwAAAAAQABAAAAF/2AkjmRpnkuqrmlxvnAsj2xdA3Ouk4Wt
+/MDfbUeE9VY/h3LJVABSgGhxKnoiFcxsVpFSNHrUnbWrLW/JzvBsDMBqf9F2sonGqV/Hhbs5rs2V
+XAuALncleXuAY0FAKoiBiYUkjXxQf2d6TE9uAISFk0uBmGagZIALAA4MDguRKllWiKOmgkuaqQ2e
+pUqfsq+iDlxuDApqvIGxvaS0u7SqYca6W0FmtszCxFPR0corqG+/wUrORHlM27N6Qr+k3sC/w50y
+h7WnZcdZKd/L4eK4Okd7Hl1qZ26dkicFX8XD42oWsmrfkOVbMlGcgoUnYFE06I7gmYfLVoVk8EUe
+FFLIBP+a4ZcpZMUl/mBodBfSoSyWsxJmifni5EGO5z5e0skHxieVKJNBNEWwHhOSGGk4dbCUJjIt
+L00hMgi1Zz5VSLWCAnLGo7uAHB1EjQCFwYFhBlWGioWTGZ2rPCXpccugDdZfLHzRfVlXyQMUKdwe
+WOXgLVEubbJmPUt0J+IFfLk0fgv2lyakhSXXXHLYRBe+bRQfePsyH87JkO+aySsi32rGq3OvQtsG
+YmyhScvQVqFYc+7bgjhD/v1zcM3JME0nfvtD9dsoqvtCM4uT+VMHw/deV2CdgZ7ji51sjRut8BKM
+XZArQI8bPQNVwWVX1gI/+WL/umGG3nH3iaQPcFp0VYL/bf9tlhsX1g0Il0QGBXVfA3botZlxucEV
+IX17lTVUGavRxpaAB3C4Wl8AfBiggAVaheBTATAQ1XQpAkhdiwOuiBCBIjmXoFsBqIXYZvWtCGGP
+cDn4IEdVKRYAAiaeiKSOOX5IFZb/kYdfTktYV6NR/pk333FJOsYgmqcoht899w0YQElHKkkegQgV
++MiAIkU4YZxyQpChdGfm6OR/pzTiZ598itfjAXPGcJp8EsJxp32r8GifioGyQqamTT766J+Vcnkc
+AmtJBeBuLvYYpIvBtHqAAA7ksGaOl4pK06EB5tqprW12aOCHnTnaqKY9TjmopLcimg4gcwF6LK+5
+BRBAn6qI+epYKJNI26ipq1lbJZlc3vdlKrKuFpuoU47LLLKixkudsXJS+cyk8uoaK7v2FoNvvgQe
+06q1EBSALbCYpAukLY9ai8ADnERy4ley6vlVjwggEEDBEUs88SlYmGsuOtqupvHGGHq8YAFfqCBH
+HyE3jLKnKpsAwAMQQACMpeJUC6m1ASQAwQNg1GzUzQkIoLTSAyztdAIGPIBhCjWHAAA7
+</data><mime>image/gif</mime><width>64</width><height>64</height><recognition><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recoIndex PUBLIC "SYSTEM" "http://xml.evernote.com/pub/recoIndex.dtd"><recoIndex docType="unknown" objType="image" objID="b5fc83e02d8398c3d907df490d8ed7fd" engineVersion="5.5.22.7" recoType="service" lang="ja" objWidth="64" objHeight="64"/>
+]]></recognition><resource-attributes><source-url>http://cdn1.www.st-hatena.com/users/d1/d14a/profile.gif</source-url><file-name>profile.gif</file-name></resource-attributes></resource><resource><data encoding="base64">
+R0lGODlhCwAKAPIHAPi5Sv3FVvjHZv7NafazK/i2Nv///wAAACH5BAEAAAYALAAAAAALAAoAAAMi
+aKqwvuQ5EJo0YYRZChkg0VlgCT5AaTlF0BaPJxiCyMZKAgA7
+</data><mime>image/gif</mime><width>11</width><height>10</height><resource-attributes><source-url>http://s.hatena.ne.jp/images/star.gif</source-url><file-name>star.gif</file-name></resource-attributes></resource></note><note><title>調査項目　ネットワーク</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note/>]]></content><created>20161014T064717Z</created><note-attributes><author>obata_hiroshi</author></note-attributes></note><note><title>作業方法</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note><div>移行</div><div><br/></div><div>丸コピー</div><div>必要なファイル</div><div><br/></div><div><br/></div><div>移行作業</div><div><br/></div><div><br/></div><div>設置場所</div><div>別場所</div><div><br/></div><div><br/></div></en-note>]]></content><created>20161018T002018Z</created><updated>20161018T002322Z</updated><note-attributes><author>obata_hiroshi</author></note-attributes></note><note><title>2016/10/26</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note><div>UPS</div><div><br/></div><div>設置</div><div><br/></div><div>- 電源を接続するだけでは機能しない。バッテリほるだーのケーブルの接続が必要だった</div><div>- さらに起動時はテストモードなのでテスト実行が必要</div><div>- UPPというIBM（元が別会社)の管理ソフトをインストール。</div><div>- ip:4679に接続。初期状態ではFireWallがONなのでOFFが必要。</div><div>- 設定する</div><div><br/></div><div>外付け</div><div><br/></div><div>- /dev/sdbに設置</div><div>- 全て使用する</div><div>- ext4でフォーマット</div><div>- fstabで/usr/local/backup以下にマウント</div><div><br/></div><div>Acronics</div><div><br/></div><div>- X86版のインストール</div><div>- XWindosが必要という罠があった</div></en-note>]]></content><created>20161026T080523Z</created><updated>20161026T080540Z</updated><note-attributes><author>obata_hiroshi</author></note-attributes></note><note><title>2016/10/24</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note><div>作業</div><div><br/></div><div>バッテリーホルダの取り付け</div><div><br/></div><div>- 英語版のX3100のドキュメントの指示に従いとりつけ</div><div><br/></div><div>SATAケーブルのM5100への取り付け</div><div><br/></div><div>- 付属のRAIDカードよりSATAケーブルの取り外し</div><div>- M5110にとりつけ</div><div>- 構成ドキュメントに従いカードをスロット１に取り付ける(PCI3.0なので)</div><div><br/></div><div>アクティーベート</div><div><br/></div><div>- レノボのFODサイトでキーを取得</div><div>- IMMのWebUIでファイルを登録</div><div><br/></div><div>RAID6</div><div><br/></div><div>- 本体ファームのSetUPからRAID6の設定</div><div><br/></div><div>問題点</div><div><br/></div><div>postgeresの設定ファイルが貰ってきたところのものではなさそう。</div><div><br/></div><div>- listenするポートが変更されているで</div></en-note>]]></content><created>20161026T080712Z</created><updated>20161026T080731Z</updated><note-attributes><author>obata_hiroshi</author></note-attributes></note><note><title>2016/10/25</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note><div>馬鹿をやって手間取る</div><div>既存のポートのport0がeth0だと思って作業をしていたらDHCPでもIP指定でもネットワークに繋がらず</div><div>LiveCDを使ってみたところDHCPでネットに接続できたので、ifconfigで調べたら</div><div>実はeth0だと思っていたのがeth2であることが判明した。</div><div>eth0は追加したgigabit ネットの方に設定されていた。</div><div><br/></div><div>これで半日潰す。</div><div>とにかく最新版にアップデートして終わる</div></en-note>]]></content><created>20161026T080812Z</created><updated>20161026T080830Z</updated><note-attributes><author>obata_hiroshi</author></note-attributes></note><note><title>POSTGRES版移行</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note>
+POSTGRESのデータを移行
+</en-note>]]></content><created>20161028T011016Z</created><updated>20161028T011028Z</updated><note-attributes><author>obata_hiroshi</author></note-attributes></note><note><title>板橋殿到着</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note>板橋殿到着</en-note>
+]]></content><created>20161205T081820Z</created><note-attributes><author>obata_hiroshi</author><source>desktop.win</source><source-application>evernote.win32</source-application></note-attributes></note><note><title>調査20161206</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note><div>ハードについて</div><div><br/></div><ul><li>RAIDカードのアップデートを調べたが対応する問題はないと判明</li></ul><div><br/></div><div>CentOS</div><div><br/></div><ul><li>CentOSのバグDBに対応する問題はなさげ</li></ul><div><br/></div><div>Kernel</div><div><br/></div><ul><li>調査は必要だがどこを見ればよいか</li></ul><div><br/></div><div><br/></div><div>対応状況</div><div><br/></div><ul><li>UbuntuはX3100M5+M5110での動作実績あり</li><li>Redhatは正式に対応している。ドライバあり</li></ul><div><br/></div><div>StackTrace</div><div><br/></div></en-note>]]></content><created>20161206T063257Z</created><updated>20161206T064428Z</updated><note-attributes><author>obata_hiroshi</author><source>desktop.win</source><source-application>evernote.win32</source-application></note-attributes></note><note><title>2016/12/08</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note><div>マルブンの件</div><div><br/></div><div>Lenovo Server Raid M5110 rejecting I/O to offline device</div><div><br/></div><div>Cent OSのBUGデータベースに報告した。</div><div><br/></div><div><a href="https://bugs.centos.org/view.php?id=12323">https://bugs.centos.org/view.php?id=12323</a></div><div><br/></div><div>Linux Kernel のバグをみてもそれらしいのはないし</div><div><br/></div><div><br/></div></en-note>]]></content><created>20161208T012714Z</created><updated>20161208T013941Z</updated><note-attributes><author>obata_hiroshi</author><source>desktop.win</source><source-url>https://bugs.centos.org/view.php?id=12323</source-url><source-application>evernote.win32</source-application></note-attributes></note><note><title>2016/12/12</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note><div>三沢IOS</div><div><br/></div><div>とりあえず画面は全部作った</div><div>XCodeの機能に絞った本がほしいな</div><div>今のSwift本はかなりよい本だが</div><div><br/></div><div>Xcode Git</div><div><br/></div><div>- コンフリクトなどが発生した場合、XCodeからではなくGitコマンドで対応しないといかん</div><div><br/></div><div>コマンド+drag</div><div><br/></div><div>- 日本指ドラッグで簡単でした</div><div><br/></div></en-note>]]></content><created>20161212T082653Z</created><updated>20161212T084521Z</updated><note-attributes><author>obata_hiroshi</author><source>desktop.win</source><source-application>evernote.win32</source-application></note-attributes></note><note><title>2016/12/14</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+
+<en-note><div>ミサワ</div><div><br/></div><div>やっとナビゲーションコントローラーの使い方がわかったので原材料在庫でやってまた</div><div><br/></div><div>マルブン案件</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div></en-note>]]></content><created>20161214T083504Z</created><updated>20161214T084949Z</updated><note-attributes><author>obata_hiroshi</author><source>desktop.win</source><source-application>evernote.win32</source-application></note-attributes></note></en-export>
